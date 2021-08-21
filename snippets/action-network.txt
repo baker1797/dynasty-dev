@@ -1,0 +1,18 @@
+var week = "1";
+var rows = document.getElementsByTagName('main')[0].getElementsByTagName('table')[0].getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+
+var output="";
+
+for (var i=0; i < rows.length; i++) {
+  var columns = rows[i].getElementsByTagName('td')
+
+  var away = columns[0].getElementsByTagName('div')[0].getElementsByTagName('span')[1].textContent;
+  var home = columns[0].getElementsByTagName('div')[1].getElementsByTagName('span')[1].textContent;
+  var betPercent = columns[4].getElementsByClassName('d-block')[1].textContent;
+  var moneyPercent = columns[5].getElementsByClassName('d-block')[1].textContent;
+
+  var parts = [week, away, home, betPercent, moneyPercent, parseInt(moneyPercent) - parseInt(betPercent)].join(",") + "\n";
+  output += parts
+  
+}
+console.log(output);

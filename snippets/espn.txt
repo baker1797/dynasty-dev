@@ -1,0 +1,8 @@
+for (var i=0; i<document.getElementsByClassName("player-column__athlete").length; i++) {
+console.log(document.getElementsByClassName("player-column__athlete")[I].textContent)
+}
+
+for (var i=0; i<document.getElementsByClassName("player-column__athlete").length; i++) {
+console.log(document.getElementsByClassName("player-column__athlete")[i].textContent, ",", document.getElementsByClassName("avc sorted")[i].textContent)
+
+}
