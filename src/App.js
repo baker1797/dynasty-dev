@@ -121,11 +121,13 @@ class App extends Component {
     }
 
     setIframe() {
-        const iframeWrapper = document.getElementById('player-iframe-wrapper');
-        const iframe = document.getElementById('player-iframe');
-        
-        iframeWrapper.classList.remove('hidden');
-        iframe.src = ['https://www.fantasypros.com', this.href].join('');
+        if (this.href) {
+            const iframeWrapper = document.getElementById('player-iframe-wrapper');
+            const iframe = document.getElementById('player-iframe');
+
+            iframeWrapper.classList.remove('hidden');
+            iframe.src = ['https://www.fantasypros.com', this.href].join('');
+        }
     }
 
     unsetIframe() {
