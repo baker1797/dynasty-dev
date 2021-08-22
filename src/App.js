@@ -1,77 +1,21 @@
-// import { response } from 'express';
 import React, { Component } from 'react';
-// import ReactDOM from 'react-dom';
 import './App.css';
-
-// fetching the GET route from the Express server which matches the GET route from server.js
-// const callBackendAPI = async () => {
-//     const response = await fetch('/rosters');
-//     const body = await response.json();
-
-//     if (response.status !== 200) {
-//         throw Error(body.message)
-//     }
-
-//     return body;
-// };
 
 class App extends Component {
 
-    state = {
-        title: 'Sleeper App | Rosters',
-        data: null,
-        league: null
-    };
+    constructor(props) {
+        super(props);
 
-    componentDidMount() {
-        // console.log('componentDidMount')
-
-        return fetch('/api/rosters')
-            .then((response) => {
-                console.log(response)
-
-                // if (response.status !== 200) {
-                //     throw Error(body.message)
-                // } else {
-                return response.json();
-                // }
-            })
-            .then((body) => {
-                this.setState({
-                    league: body.league
-                })
-
-                return Promise.resolve()
-            });
-
-    }
-    
-    renderTeamLinks () {
-        if (this.state.league) {
-            let rows = [];
-
-            this.state.league.rosters.forEach((roster, i) => {
-                let id = `roster-link-${i}`;
-                let link = `#${roster.ownerName}`;
-
-                // rows.push(<section className="team" id={id} key={id}>)
-                rows.push(
-                    <a href={link} className="team_link">{roster.ownerName}</a>
-                );
-            });
-
-            return rows;
+        this.state = {
+            league: props.league
         }
     }
     
     renderRosters() {
         if (this.state.league) {
-            let rows = []
-
-            console.log('in render')
+            let rows = [];
 
             this.state.league.rosters.forEach((roster, i) => {
-
                 let id = `roster-${i}`;
 
                 rows.push(
@@ -80,34 +24,44 @@ class App extends Component {
                         <div className="roster">
                             <ul>
                                 <h4>QB</h4>
-                                {this.renderPlayers(roster.players.filter(player => player.position == 'QB').sort((a,b) => b.value - a.value ))}
-                            </ul>
-                            <ul>
-                                <h4>RB</h4>
-                                {this.renderPlayers(roster.players.filter(player => player.position == 'RB').sort((a,b) => b.value - a.value ))}
-                            </ul>
-                            <ul>
-                                <h4>WR</h4>
-                                {this.renderPlayers(roster.players.filter(player => player.position == 'WR').sort((a,b) => b.value - a.value ))}
+                                {this.renderPositionGroup(roster.players, 'QB')}
                             </ul>
                             <ul>
                                 <h4>TE</h4>
-                                {this.renderPlayers(roster.players.filter(player => player.position == 'TE').sort((a,b) => b.value - a.value ))}
+                                {this.renderPositionGroup(roster.players, 'TE')}
+                            </ul>
+                            <ul>
+                                <h4>RB</h4>
+                                {this.renderPositionGroup(roster.players, 'RB')}
+                            </ul>
+                            <ul>
+                                <h4>WR</h4>
+                                {this.renderPositionGroup(roster.players, 'WR')}
                             </ul>
                         </div>
                     </section>
                 )
-            })
+            });
 
-            return rows
+            return rows;
         }
     }
 
-    renderPlayers(players) {
+    renderPositionGroup(players, position) {
+        const playerList = [];
+        const positionGroup = players
+            .filter(player => player.position === position)
+            .sort((a,b) => b.value - a.value);
 
-        const playerList = []
+        const headerKey = 'position_group-' + position;
+        playerList.push(
+            <li key={headerKey}>
+                <div className="player-name">Name</div>
+                <div>Value</div>
+            </li>
+        )
 
-        players.forEach((player) => {
+        positionGroup.forEach((player) => {
             let id = `player-${player.owner}-${player.id}`
             let valueClass = "player-value_";
 
@@ -123,24 +77,30 @@ class App extends Component {
 
             valueClass += ' player-value';
 
+            const designations = [];
+
+            if (player.injuryStatus === 'PUP') {
+                designations.push(<span className="designation designation-injury__pup" key={player.injuryStatus}>+</span>)
+            }
+
             playerList.push(
                 <li id={id} key={id} className={player.rosterStatus}>
-                    <div className="player-name">{player.name}</div>
+                    <div className="player-name">
+                        <span className="player-name__short">{player.name.short}</span>
+                        <span className="player-name__full">{player.name.full}</span>
+                        <span className="player-designations">{designations}</span>
+                    </div>
                     <div className={valueClass}>{player.value}</div>
                 </li>
             )
         });
 
-        return playerList
+        return playerList;
     }
 
     render() {
         return (
             <div className="App">
-                <nav className="nav-teams flex_wrap">
-                    <h2>Teams</h2>
-                    {this.renderTeamLinks()}
-                </nav>
                 <div id="rosters">
                     {this.renderRosters()}
                 </div>

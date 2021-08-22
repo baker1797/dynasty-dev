@@ -9,13 +9,9 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-
 * {
   box-sizing: border-box;
+  font-family: 'Helvetica Neue';
 }
 ul {
   list-style: none;
@@ -56,8 +52,8 @@ h2 {
 }
 
 .team h2 {
-  margin: 0;
-  background-color: #000;
+  margin: 16px 0 0 0;
+  background-color: rgba(70, 108, 170);
   padding: 8px;
 }
 
@@ -68,7 +64,9 @@ h2 {
 .roster h4 {
   flex: 1 0 100%;
   margin: 0;
-  padding: 4px 0
+  padding: 0px 0 0 0;
+  background-color: #333;
+  border-top: 2px #000 solid;
 }
 
 .nav-teams {
@@ -76,21 +74,43 @@ h2 {
   display: flex;
 }
 .nav-teams .team_link {
-  flex: 1 1 25%;
-  padding: 8px;
+  flex: 0 0 33%;
+  text-decoration: none;
+  padding: 6px 0;
   line-height: 1.4em;
-  color: #61dafb;
+  text-shadow: 1px 1px #030303;
+  color: rgba(172,210, 255);
   font-weight: bold;
-  font-size: 1.3em;
   text-align: center;
 }
 
+ul {
+  border-width: 0;
+}
+ul:first-child {
+  border-color: #000;
+  border-width: 0;
+  border-style: solid;
+}
 ul:nth-child(n+2) {
-  border-left: 4px #aaa solid;
+  border-color: #000;
+  border-left-width: 4px;
+  border-style: solid;
 }
 
-.roster li {
+/* .roster {
   background-color: #aaa;
+} */
+
+.roster li {
+  background-color: #a3a3a3;
+}
+
+.roster ul li:nth-child(2) div {
+  font-weight: bolder !important;
+  background-color: #333;
+  text-shadow: 1px 1px #333;
+  color: #fcfcfc;
 }
 
 li div.player-name {
@@ -112,10 +132,16 @@ li div.player-value {
   font-weight: bold;
 }
 
-
-li.STARTER .player-name {
-  background-color: rgba(4, 170, 109);
+.player-name__short {
+  display: none;
 }
+.player-name__full {
+  display: inline;
+}
+
+/* li.STARTER .player-name {
+  background-color: rgba(4, 170, 109);
+} */
 li.TAXI .player-name {
   background-color: rgb(179, 143, 0);
 }
@@ -125,6 +151,7 @@ li.BENCH .player-name {
 li.IR .player-name {
   /* background-color: #999; */
 }
+
 li div.player-value {
   background-color: rgba(3, 106, 68);
 }
@@ -132,27 +159,47 @@ li div.player-value_high {
   background-color: rgba(3, 106, 68);
 }
 li div.player-value_medium {
-  background-color: rgba(3, 106, 68, .5);
+  background-color: rgba(3, 106, 68, .7);
 }
 li div.player-value_average {
-  background-color: #aaa;
+  background-color: #a3a3a3;
 }
 li div.player-value_low {
   background-color: #AA0441;
+}
+.designation {
+  margin-left: 2px;
+}
+.designation-injury__pup {
+  color: #AA0441;
+  font-weight: bolder;
 }
 
 
 @media (max-width: 480px) {
   body {
-    font-size: .6em;
+    font-size: .5em;
   }
 
-  ul:nth-child(n+2) {
-    border-left: 2px #aaa solid;
+  ul:nth-child(2n) {
+    border-left-width: 1px;
+    border-right-width: 0;
+  }
+  ul:nth-child(2n+1) {
+    border-left-width: 0;
+    border-right-width: 1px;
+  }
+
+  .roster {
+    flex-wrap: wrap;
+  }
+
+  ul {
+    flex: 0 0 50%;
   }
 
   li div {
-    line-height: 1em;
+    line-height: 1.4em;
     padding: 2px 2px;
   }
 
@@ -160,5 +207,17 @@ li div.player-value_low {
   li div.player-value {
     font-weight: normal;
   }
+  .player-name__short {
+    display: inline;
+  }
+  .player-name__full {
+    display: none;
+  }
 
+}
+
+
+.Footer {
+  height: 48px;
+  margin: 24px 0;
 }

@@ -1,3 +1,5 @@
+const decode = require('html-entities');
+
 const rosterStatus = {
     starter: 'STARTER',
     bench: 'BENCH',
@@ -8,38 +10,52 @@ const rosterStatus = {
 class Player {
 
     constructor(team, p, playerValues, roster) {
+        this.id = team.player_map[p].player_id;
+        
+        const player = team.player_map[p];
+        
+        /* Meta */
+        this.owner = roster.ownerName;
+        this.name = this.setName(player) 
+        this.position = player.position;
+        this.team = player.team;
+        this.rosterStatus = getRosterStatus(team, p);
+        this.injuryStatus = player.injury_status;
+        
+        /* Stats */
+        this.value = this.setValue(playerValues);
+    }
 
-        // Assign the "trade value" to the player
-        let playerName = team.player_map[p].first_name + ' ' + team.player_map[p].last_name;
+    setName(player) {
+        const first = Player.sanitizeName(player.first_name);
+        const last = Player.sanitizeName(player.last_name);
+
+        return {
+            first,
+            last,
+            full: first + ' ' + last,
+            short: first.substr(0,1) + '. ' + last
+        }
+    }
+
+    setValue(playerValues) {
+        let value = 0;
         let playerValue = playerValues.find(player => {
-            // if (playerName.startsWith('Ja') && player.name.startsWith('Ja')) {
-            //     console.log('@'+ Player.sanitizeName(player.name)+'@')
-            //     console.log('@'+ Player.sanitizeName(playerName)+'@')
-            // }
-            return Player.sanitizeName(player.name) === playerName;
+            return Player.sanitizeName(player.name) === this.name.full;
         });
 
-        this.id = team.player_map[p].player_id;
-        this.owner = roster.ownerName;
-        this.name = playerName;
-        this.nameFirst = team.player_map[p].first_name;
-        this.nameLast = team.player_map[p].last_name;
-        this.position = team.player_map[p].position;
-        this.team = team.player_map[p].team;
-        this.rosterStatus = getRosterStatus(team, p);
-
         if (playerValue) {
-            this.value = playerValue.value;
-        } else {
-            this.value = 0;
+            value = playerValue.value;
         }
+
+        return value;
     }
 
     toString() {
         console.log([
             this.owner,
             this.position,
-            this.name,
+            this.name.full,
             this.rosterStatus,
             // this.ownedPercentage,
             // this.startPercentage,
@@ -49,16 +65,17 @@ class Player {
     
     render() {
 
-        
     }
     
-    static sanitizeName (name) {
-        
-        name = name.replace('Jr.','');
+    static sanitizeName(name) {
+        name = decode.decode(name)
+        console.log(name)
+        name = name.replace(/\./g,'');
         name = name.replace('II','');
         name = name.replace('\'','');
         name = name.replace('’','');
         name = name.replace('Jr','');
+        name = name.replace(new RegExp(' V$'),'');
         name = name.trim();
 
         return name;
