@@ -38,7 +38,7 @@ li div {
 
 
 body {
-  background: #333;
+  background: #cfcfcf;
   font-size: .85em;
 }
 
@@ -49,12 +49,18 @@ h2, h3, h4 {
 
 h2 {
   flex: 1 1 100%;
+  background-color: #000;
+  margin: 0;
+  padding: 12px;
 }
 
+.team {
+  margin: 0 0 16px 0;
+}
 .team h2 {
-  margin: 16px 0 0 0;
   background-color: rgba(70, 108, 170);
   padding: 8px;
+  border-top: 2px #000 solid;
 }
 
 .flex_wrap {
@@ -72,9 +78,10 @@ h2 {
 .nav-teams {
   width: 100%;
   display: flex;
+  background-color: #333;
 }
 .nav-teams .team_link {
-  flex: 0 0 33%;
+  flex: 0 0 33.33%;
   text-decoration: none;
   padding: 6px 0;
   line-height: 1.4em;
@@ -169,16 +176,18 @@ li div.player-value_low {
 }
 .designation {
   margin-left: 2px;
+  font-weight: bold;
+  font-size: 1.3em;
+  line-height: 0;
 }
 .designation-injury__pup {
   color: #AA0441;
-  font-weight: bolder;
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 720px) {
   body {
-    font-size: .5em;
+    font-size: .75em;
   }
 
   ul:nth-child(2n) {

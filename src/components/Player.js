@@ -1,4 +1,4 @@
-const decode = require('html-entities');
+import { decode } from 'html-entities';
 
 const rosterStatus = {
     starter: 'STARTER',
@@ -68,7 +68,7 @@ class Player {
     }
     
     static sanitizeName(name) {
-        name = decode.decode(name)
+        name = decode(name)
         console.log(name)
         name = name.replace(/\./g,'');
         name = name.replace('II','');
@@ -100,4 +100,6 @@ function getRosterStatus(team, id) {
     return status;
 }
 
-module.exports = Player
+
+
+export default Player;

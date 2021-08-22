@@ -1,4 +1,4 @@
-const Player = require('./Player');
+import Player from './Player';
 
 class League {
     constructor(rostersData, playerValues) {
@@ -40,4 +40,4 @@ function getOwnerName(teams, teamId) {
     return team.display_name
 }
 
-module.exports = League;
+export default League;
