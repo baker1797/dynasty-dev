@@ -2,6 +2,9 @@
 Trade values for your Sleeper.app league
 
 
+## Acknowledgements
+- https://github.com/myogeshchavan97/github-jobs-react-app
+
 <!-- 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

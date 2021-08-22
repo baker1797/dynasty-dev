@@ -89,25 +89,29 @@ ul:nth-child(n+2) {
   border-left: 4px #aaa solid;
 }
 
+.roster li {
+  background-color: #aaa;
+}
+
 li div.player-name {
-  flex: 1 1 75%;
-  width: 75%;
+  flex: 1 1 80%;
+  width: 80%;
+  white-space: pre;
+  overflow: hidden;
+  color: #000;
 }
 li div.player-value {
-  flex: 1 1 25%;
-  width: 25%;
+  flex: 1 1 20%;
+  width: 20%;
   text-align: right;
+  text-shadow: 1px 1px #333;
+  color: #fcfcfc;
 }
 li div.player-name,
 li div.player-value {
   font-weight: bold;
-  text-shadow: 1px 1px #333;
 }
 
-.roster li {
-  background-color: #aaa;
-  color: #fcfcfc;
-}
 
 li.STARTER .player-name {
   background-color: rgba(4, 170, 109);
@@ -135,4 +139,26 @@ li div.player-value_average {
 }
 li div.player-value_low {
   background-color: #AA0441;
+}
+
+
+@media (max-width: 480px) {
+  body {
+    font-size: .6em;
+  }
+
+  ul:nth-child(n+2) {
+    border-left: 2px #aaa solid;
+  }
+
+  li div {
+    line-height: 1em;
+    padding: 2px 2px;
+  }
+
+  li div.player-name,
+  li div.player-value {
+    font-weight: normal;
+  }
+
 }
