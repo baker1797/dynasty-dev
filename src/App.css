@@ -162,23 +162,18 @@ li.BENCH .player-name {
   /* background-color: #aaa; */
 }
 li.IR .player-name {
-  /* background-color: #999; */
+  background-color: #999;
 }
 
-li div.player-value {
-  background-color: rgba(3, 106, 68);
-}
+/* Value - Colors */
 li div.player-value_high {
   background-color: rgba(3, 106, 68);
 }
 li div.player-value_medium {
-  background-color: rgba(3, 106, 68, .7);
-}
-li div.player-value_average {
-  background-color: #a3a3a3;
+  background-color: rgba(3, 106, 68, .5);
 }
 li div.player-value_low {
-  background-color: #AA0441;
+  background-color: rgb(170, 4, 65, .7);
 }
 .designation {
   margin-left: 2px;
