@@ -2,7 +2,7 @@
 // const fantasyPros = http.get('https://www.fantasypros.com/2021/05/fantasy-football-rankings-dynasty-trade-value-chart-may-2021-update/')
 const fs = require('fs');
 const cheerio = require('cheerio');
-const utils = require('./src/utils');
+const Player = require('./Player');
 
 
 async function getPlayerValues() {
@@ -39,8 +39,8 @@ async function getPlayerValues() {
                             value: i == 0 ? $(row).find('td:nth-child(6)').text() : $(row).find('td:nth-child(4)').text()
                         }
 
-                        playerA.name = utils.sanitizeName(playerA.name)
-                        playerB.name = utils.sanitizeName(playerB.name)
+                        playerA.name = Player.sanitizeName(playerA.name)
+                        playerB.name = Player.sanitizeName(playerB.name)
 
                         players.push(playerA)
                         players.push(playerB)

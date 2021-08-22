@@ -1,23 +1,22 @@
-const utils = require('./utils')
-
 const rosterStatus = {
     starter: 'STARTER',
     bench: 'BENCH',
-    ir: 'IR',
-    taxi: 'TAXI'
-};
+    taxi: 'TAXI',
+    ir: 'IR'
+}
 
-class createPlayer {
+class Player {
+
     constructor(team, p, playerValues, roster) {
 
         // Assign the "trade value" to the player
         let playerName = team.player_map[p].first_name + ' ' + team.player_map[p].last_name;
         let playerValue = playerValues.find(player => {
-            if (playerName.startsWith('Ja') && player.name.startsWith('Ja')) {
-                console.log('@'+ utils.sanitizeName(player.name)+'@')
-                console.log('@'+ utils.sanitizeName(playerName)+'@')
-            }
-            return utils.sanitizeName(player.name) === playerName;
+            // if (playerName.startsWith('Ja') && player.name.startsWith('Ja')) {
+            //     console.log('@'+ Player.sanitizeName(player.name)+'@')
+            //     console.log('@'+ Player.sanitizeName(playerName)+'@')
+            // }
+            return Player.sanitizeName(player.name) === playerName;
         });
 
         this.id = team.player_map[p].player_id;
@@ -32,32 +31,49 @@ class createPlayer {
         if (playerValue) {
             this.value = playerValue.value;
         } else {
-            // console.log(playerName)
             this.value = 0;
         }
-
-        this.toString = () => {
-            console.log(Object.values(this).join('\t'));
-        };
-        this.print = () => {
-            console.log([
-                this.owner,
-                this.position,
-                this.name,
-                this.value
-            ].join('\t'));
-        };
-
     }
+
+    toString() {
+        console.log([
+            this.owner,
+            this.position,
+            this.name,
+            this.rosterStatus,
+            // this.ownedPercentage,
+            // this.startPercentage,
+            this.value
+        ].join('\t'));
+    };
+    
+    render() {
+
+        
+    }
+    
+    static sanitizeName (name) {
+        
+        name = name.replace('Jr.','');
+        name = name.replace('II','');
+        name = name.replace('\'','');
+        name = name.replace('’','');
+        name = name.replace('Jr','');
+        name = name.trim();
+
+        return name;
+    }
+
 }
+
 function getRosterStatus(team, id) {
     try {
         if (team.starters.includes(id)) {
-            status = rosterStatus.starter
+            status = rosterStatus.starter;
         } else if (team.taxi && team.taxi.includes(id)) {
-            status = rosterStatus.taxi
+            status = rosterStatus.taxi;
         } else {
-            status = rosterStatus.bench
+            status = rosterStatus.bench;
         }
     } catch (e) {
         console.log('error in getRosterStatus', id, team)
@@ -67,6 +83,4 @@ function getRosterStatus(team, id) {
     return status;
 }
 
-module.exports = {
-    createPlayer
-}
+module.exports = Player
