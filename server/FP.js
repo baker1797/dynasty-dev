@@ -4,7 +4,6 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const Player = require('./Player');
 
-
 async function getPlayerValues() {
     let players = []
 
