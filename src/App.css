@@ -240,6 +240,8 @@ li div.player-value_low {
 #player-iframe-wrapper {
   width: 100vw;
   height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
   position: fixed;
   top: 0;
   right: 0;
@@ -249,11 +251,18 @@ li div.player-value_low {
 }
 #player-iframe-close {
   height: 5vh;
+  line-height: 5vh;
   text-align: center;
   color: rgba(172,210, 255);
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  margin: 0;
 }
 iframe {
-  height: 95vh;
+  height: 100%;
   width: 100%;
 }
 .hidden {
