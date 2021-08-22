@@ -1,4 +1,4 @@
-const decode = require('html-entities');
+import { decode } from 'html-entities';
 
 const rosterStatus = {
     starter: 'STARTER',
@@ -9,7 +9,7 @@ const rosterStatus = {
 
 class Player {
 
-    constructor(team, p, playerValues, roster) {
+    constructor(team, p, playerValues, roster, adp) {
         this.id = team.player_map[p].player_id;
         
         const player = team.player_map[p];
@@ -24,6 +24,21 @@ class Player {
         
         /* Stats */
         this.value = this.setValue(playerValues);
+
+        let adpSource = adp.find(player => {
+            return Player.sanitizeName(player.name) === this.name.full
+        })
+
+        this.adp = {
+            position: null,
+            overall: null
+        };
+        this.href = null;
+
+        if (adpSource) {
+            this.adp = adpSource.adp;
+            this.href = adpSource.href;
+        }
     }
 
     setName(player) {
@@ -68,8 +83,7 @@ class Player {
     }
     
     static sanitizeName(name) {
-        name = decode.decode(name)
-        console.log(name)
+        name = decode(name)
         name = name.replace(/\./g,'');
         name = name.replace('II','');
         name = name.replace('\'','');
@@ -84,6 +98,8 @@ class Player {
 }
 
 function getRosterStatus(team, id) {
+    let status;
+
     try {
         if (team.starters.includes(id)) {
             status = rosterStatus.starter;
@@ -100,4 +116,6 @@ function getRosterStatus(team, id) {
     return status;
 }
 
-module.exports = Player
+
+
+export default Player;

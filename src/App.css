@@ -38,7 +38,7 @@ li div {
 
 
 body {
-  background: #333;
+  background: #cfcfcf;
   font-size: .85em;
 }
 
@@ -49,12 +49,18 @@ h2, h3, h4 {
 
 h2 {
   flex: 1 1 100%;
+  background-color: #000;
+  margin: 0;
+  padding: 12px;
 }
 
+.team {
+  margin: 0 0 16px 0;
+}
 .team h2 {
-  margin: 16px 0 0 0;
   background-color: rgba(70, 108, 170);
   padding: 8px;
+  border-top: 2px #000 solid;
 }
 
 .flex_wrap {
@@ -72,9 +78,10 @@ h2 {
 .nav-teams {
   width: 100%;
   display: flex;
+  background-color: #333;
 }
 .nav-teams .team_link {
-  flex: 0 0 33%;
+  flex: 0 0 33.33%;
   text-decoration: none;
   padding: 6px 0;
   line-height: 1.4em;
@@ -114,18 +121,24 @@ ul:nth-child(n+2) {
 }
 
 li div.player-name {
-  flex: 1 1 80%;
-  width: 80%;
+  flex: 1 1 58%;
+  width: 58%;
   white-space: pre;
   overflow: hidden;
   color: #000;
 }
-li div.player-value {
-  flex: 1 1 20%;
-  width: 20%;
-  text-align: right;
+li div.player-adp {
   text-shadow: 1px 1px #333;
   color: #fcfcfc;
+}
+li div.player-value {
+  text-shadow: 1px 1px #333;
+  color: #fcfcfc;
+}
+li div.player-stat-column {
+  flex: 1 1 14%;
+  width: 14%;
+  text-align: right;
 }
 li div.player-name,
 li div.player-value {
@@ -169,16 +182,18 @@ li div.player-value_low {
 }
 .designation {
   margin-left: 2px;
+  font-weight: bold;
+  font-size: 1.3em;
+  line-height: 0;
 }
 .designation-injury__pup {
   color: #AA0441;
-  font-weight: bolder;
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 720px) {
   body {
-    font-size: .5em;
+    font-size: .75em;
   }
 
   ul:nth-child(2n) {
@@ -187,7 +202,7 @@ li div.player-value_low {
   }
   ul:nth-child(2n+1) {
     border-left-width: 0;
-    border-right-width: 1px;
+    /* border-right-width: 1px; */
   }
 
   .roster {
@@ -220,4 +235,26 @@ li div.player-value_low {
 .Footer {
   height: 48px;
   margin: 24px 0;
+}
+
+#player-iframe-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000;
+}
+#player-iframe-close {
+  height: 5vh;
+  line-height: 5vh;
+  text-align: center;
+  color: rgba(172,210, 255);
+}
+iframe {
+  height: 95vh;
+  width: 100%;
+}
+.hidden {
+  visibility: hidden;
 }

@@ -13,12 +13,7 @@ const options = {
     }
 };
 
-const req = http.request(options, (res) => {
-    // console.log(res)
-    // res.resume();
-
-    console.log("Got response: " + res.statusCode);
-
+const req = http.request(options, (res) => {s
     res.on('data', (chunk) => {
         console.log(`BODY: ${chunk}`);
     });
