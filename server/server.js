@@ -5,10 +5,13 @@ const app = express();
 
 /* Dependencies */
 const FP = require('./lib/FP');
-
 const port = process.env.PORT || 5000;
-const buildPath = path.join(__dirname, '..', 'build');
-app.use(express.static(buildPath));
+
+if (process.env.NODE_ENV !== 'development') {
+    console.log('running dev env')
+    const buildPath = path.join(__dirname, '..', 'build');
+    app.use(express.static(buildPath));
+}
 
 /* API Routes */
 
