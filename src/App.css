@@ -190,11 +190,12 @@ li div.player-value_low {
   color: #AA0441;
 }
 
-
 @media (max-width: 768px) {
   body {
     font-size: .75em;
   }
+}
+@media (max-width: 1024px) {
 
   ul:nth-child(2n) {
     border-left-width: 1px;
@@ -230,7 +231,6 @@ li div.player-value_low {
   }
 
 }
-
 
 .Footer {
   height: 48px;
