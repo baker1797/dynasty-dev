@@ -52,8 +52,10 @@ class App extends Component {
         const positionGroup = players
             .filter(player => player.position === position)
             .sort((a,b) => {
-                // console.log(parseInt(b.adp.position), parseInt(a.adp.position))
-                return parseInt(a.adp.overall) - parseInt(b.adp.overall)
+                const valueA = a.adp.overall ? parseInt(a.adp.overall) : 10000;
+                const valueB = b.adp.overall ? parseInt(b.adp.overall) : 10000;
+
+                return valueA - valueB;
             });
 
         const headerKey = 'position_group-' + position;
@@ -95,7 +97,7 @@ class App extends Component {
                         <span className="player-name__full">{player.name.full}</span>
                         <span className="player-designations">{designations}</span>
                     </div>
-                    <div className="player-stat-column">{player.adp.position ? player.adp.position.substr(2) : '--'}</div>
+                    <div className="player-stat-column">{player.adp.position && player.adp.position.substr(0,2) === position ? player.adp.position.substr(2) : '--'}</div>
                     <div className="player-stat-column">{player.adp.overall ? Math.round(player.adp.overall) : '--'}</div>
                     <div className={valueClass}>{player.value}</div>
                 </li>
