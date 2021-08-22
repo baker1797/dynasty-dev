@@ -3,18 +3,18 @@
 const fs = require('fs');
 const cheerio = require('cheerio');
 // const Player = require('../../src/components/Player');
-const leagueJson = require('./../data/exports/leagues/sleeper/2021-08-21.json');
 
+const leagueJson = require('./../data/exports/leagues/sleeper/2021-08-21.json');
 const files = [
     {
         site: 'fantasy-pros',
         type: 'trade-value',
-        uri: './server/data/exports/fantasy-pros/trade-value.txt'
+        uri: './data/exports/fantasy-pros/trade-value.txt'
     },
     {
         site: 'fantasy-pros',
         type: 'adp-ppr',
-        uri: './server/data/exports/fantasy-pros/adp-ppr.txt'
+        uri: './data/exports/fantasy-pros/adp-ppr.txt'
     }
 ]
 
@@ -26,11 +26,9 @@ async function getLeague() {
 
 async function getTradeValues() {
     return new Promise((resolve) => {
-        let players = []
-
-        console.log(files[0].uri)
         fs.readFile(files[0].uri, 'utf8' , (err, data) => {
-            
+            let players = []
+
             if (err) {
                 console.error(err)
                 return
@@ -59,6 +57,7 @@ async function getTradeValues() {
                             value: i == 0 ? $(row).find('td:nth-child(6)').text() : $(row).find('td:nth-child(4)').text()
                         }
 
+                        // TODO - reapply this to improve speed later
                         // playerA.name = Player.sanitizeName(playerA.name)
                         // playerB.name = Player.sanitizeName(playerB.name)
 
@@ -72,7 +71,6 @@ async function getTradeValues() {
                 return parseInt(b.value) - parseInt(a.value);
             })
 
-            // console.log(players)
             return resolve(players);
         })
     })
@@ -104,18 +102,17 @@ async function getAdp() {
                 $(row).each((/*j, column*/) => {
                     const playerLabel = $(row).find('.player-name');
 
-                    player.name = Player.sanitizeName(playerLabel.text());
+                    player.name = playerLabel.text()//Player.sanitizeName(playerLabel.text());
                     player.href = playerLabel.attr('href');
                     player.adp.position = $(row).find('td:nth-child(3)').text();
                     player.adp.overall = $(row).find('td:last-child').text();
 
-                    console.log(player.name, player.href, player.adp.position, player.adp.overall);
+                    // console.log(player.name, player.href, player.adp.position, player.adp.overall);
                 })
 
                 players.push(player);
             });
 
-            // console.log(players)
             return resolve(players);
         })
     })

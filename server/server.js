@@ -1,25 +1,24 @@
 /* App Settings */
-// const axios = require('axios');
 const path = require('path');
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 5000;
-// const buildPath = path.join(__dirname, '..', 'build');
-// app.use(express.static(buildPath));
 
 /* Dependencies */
 const FP = require('./lib/FP');
-// const League = require('./League');
 
-// create a GET route
+const port = process.env.PORT || 5000;
+const buildPath = path.join(__dirname, '..', 'build');
+app.use(express.static(buildPath));
+
+/* API Routes */
+
+// GET - Trade Values
 app.get('/api/trade-values', (req, res) => {
-
     try {
         FP.getTradeValues()
             .then((data) => {
-                // const data = new League(rostersData, playerValues)
-                
                 res.send({
+                    refType: 'trade-values',
                     data
                 })
             });
@@ -28,16 +27,14 @@ app.get('/api/trade-values', (req, res) => {
     }
 });
 
-// create a GET route
+// GET - League
 app.get('/api/league', (req, res) => {
-
     try {
         FP.getLeague()
             .then((data) => {
-                // const data = new League(rostersData, playerValues)
-                
                 res.send({
-                    data
+                    refType: 'league',
+                    ...data
                 })
             });
     } catch (error) {
@@ -46,15 +43,13 @@ app.get('/api/league', (req, res) => {
 });
 
 
-// create a GET route
+// GET - ADP
 app.get('/api/adp', (req, res) => {
-
     try {
         FP.getAdp()
             .then((data) => {
-                console.log(data)
-                
                 res.send({
+                    refType: 'adp',
                     data
                 })
             });
