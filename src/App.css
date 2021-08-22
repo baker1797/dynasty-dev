@@ -191,7 +191,7 @@ li div.player-value_low {
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   body {
     font-size: .75em;
   }
@@ -242,12 +242,13 @@ li div.player-value_low {
   height: 100vh;
   position: fixed;
   top: 0;
+  right: 0;
+  bottom: 0;
   left: 0;
   background-color: #000;
 }
 #player-iframe-close {
   height: 5vh;
-  line-height: 5vh;
   text-align: center;
   color: rgba(172,210, 255);
 }

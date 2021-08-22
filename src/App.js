@@ -52,7 +52,6 @@ class App extends Component {
         const positionGroup = players
             .filter(player => player.position === position)
             .sort((a,b) => {
-                // console.log(b)
                 // console.log(parseInt(b.adp.position), parseInt(a.adp.position))
                 return parseInt(a.adp.overall) - parseInt(b.adp.overall)
             });
@@ -114,8 +113,8 @@ class App extends Component {
                 </div>
 
                 <div id="player-iframe-wrapper" className="hidden">
+                    <iframe sandbox="" title="Player iframe | Fantasy Pros" id="player-iframe" src=""></iframe>
                     <h4 id="player-iframe-close" onClick={this.unsetIframe}>Close [x]</h4>
-                    <iframe title="Player iframe | Fantasy Pros" id="player-iframe" src=""></iframe>
                 </div>
             </div>
         );
@@ -123,9 +122,10 @@ class App extends Component {
 
     setIframe() {
         const iframeWrapper = document.getElementById('player-iframe-wrapper');
-
+        const iframe = document.getElementById('player-iframe');
+        
         iframeWrapper.classList.remove('hidden');
-        document.getElementById('player-iframe').src = ['https://www.fantasypros.com', this.href].join('');
+        iframe.src = ['https://www.fantasypros.com', this.href].join('');
     }
 
     unsetIframe() {
