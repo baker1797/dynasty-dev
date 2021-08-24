@@ -16,7 +16,7 @@ class Player {
         
         /* Meta */
         this.owner = roster.ownerName;
-        this.name = this.setName(player) 
+        this.name = this.setName(player);
         this.position = player.position;
         this.team = player.team;
         this.rosterStatus = getRosterStatus(team, p);
@@ -26,7 +26,7 @@ class Player {
         this.value = this.setValue(playerValues);
 
         let adpSource = adp.find(player => {
-            return Player.sanitizeName(player.name) === this.name.full
+            return Player.sanitizeName(player.name) === this.name.full;
         })
 
         this.adp = {
@@ -42,6 +42,10 @@ class Player {
     }
 
     setName(player) {
+        if (player.player_id === '5284') {
+            player.first_name = 'Jeff';
+        }
+
         const first = Player.sanitizeName(player.first_name);
         const last = Player.sanitizeName(player.last_name);
 
@@ -85,11 +89,14 @@ class Player {
     static sanitizeName(name) {
         name = decode(name)
         name = name.replace(/\./g,'');
-        name = name.replace('II','');
+        name = name.replace(/I$/g,'');
+        name = name.replace(/II$/g,'');
+        name = name.replace(/III$/g,'');
+        name = name.replace(/IV$/g,'');
+        name = name.replace(new RegExp(' V$'),'');
+        name = name.replace('Jr','');
         name = name.replace('\'','');
         name = name.replace('’','');
-        name = name.replace('Jr','');
-        name = name.replace(new RegExp(' V$'),'');
         name = name.trim();
 
         return name;
