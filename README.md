@@ -1,6 +1,8 @@
 # Dynasty Dev
 Trade values for your Sleeper.app league
 
+**Deployed via Heroku:**
+http://dynasty-dev.herokuapp.com/
 
 ## Acknowledgements
 - https://github.com/myogeshchavan97/github-jobs-react-app
