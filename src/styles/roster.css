@@ -1,0 +1,20 @@
+.roster {
+    display: flex;
+    flex-direction: row;
+}
+.roster h4 {
+    flex: 1 0 100%;
+    margin: 0;
+    padding: 0px 0 0 0;
+    background-color: #333;
+    border-top: 2px #000 solid;
+}
+.roster li {
+    background-color: #a3a3a3;
+}
+.roster ul li:nth-child(2) div {
+    font-weight: bolder !important;
+    background-color: #333;
+    text-shadow: 1px 1px #333;
+    color: #fcfcfc;
+}

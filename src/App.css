@@ -1,45 +1,19 @@
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@import './styles/badges.css';
+@import './styles/flex.css';
+@import './styles/iframe.css';
+@import './styles/lists.css';
+@import './styles/roster.css';
 
-* {
-  box-sizing: border-box;
-  font-family: 'Helvetica Neue';
-}
-ul {
-  list-style: none;
-  padding-inline-start: 0;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  width: 25%;
-}
-li {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
-li div {
-  line-height: 1.4em;
-  padding: 4px 8px;
-}
-
-.roster {
-  display: flex;
-  flex-direction: row;
-}
-
+/* Global */
 
 body {
   background: #cfcfcf;
   font-size: .85em;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: .75em;
+  }
 }
 
 h2, h3, h4 {
@@ -54,6 +28,8 @@ h2 {
   padding: 12px;
 }
 
+
+/* Features */
 .team {
   margin: 0 0 16px 0;
 }
@@ -63,17 +39,6 @@ h2 {
   border-top: 2px #000 solid;
 }
 
-.flex_wrap {
-  flex-wrap: wrap;
-}
-
-.roster h4 {
-  flex: 1 0 100%;
-  margin: 0;
-  padding: 0px 0 0 0;
-  background-color: #333;
-  border-top: 2px #000 solid;
-}
 
 .nav-teams {
   width: 100%;
@@ -85,40 +50,12 @@ h2 {
   text-decoration: none;
   padding: 6px 0;
   line-height: 1.4em;
-  text-shadow: 1px 1px #030303;
-  color: rgba(172,210, 255);
   font-weight: bold;
   text-align: center;
+  text-shadow: 1px 1px #030303;
+  color: rgba(172,210, 255);
 }
 
-ul {
-  border-width: 0;
-}
-ul:first-child {
-  border-color: #000;
-  border-width: 0;
-  border-style: solid;
-}
-ul:nth-child(n+2) {
-  border-color: #000;
-  border-left-width: 4px;
-  border-style: solid;
-}
-
-/* .roster {
-  background-color: #aaa;
-} */
-
-.roster li {
-  background-color: #a3a3a3;
-}
-
-.roster ul li:nth-child(2) div {
-  font-weight: bolder !important;
-  background-color: #333;
-  text-shadow: 1px 1px #333;
-  color: #fcfcfc;
-}
 
 li div.player-name {
   flex: 1 1 58%;
@@ -175,21 +112,7 @@ li div.player-value_medium {
 li div.player-value_low {
   background-color: rgb(170, 4, 65, .7);
 }
-.designation {
-  margin-left: 2px;
-  font-weight: bold;
-  font-size: 1.3em;
-  line-height: 0;
-}
-.designation-injury__pup {
-  color: #AA0441;
-}
 
-@media (max-width: 768px) {
-  body {
-    font-size: .75em;
-  }
-}
 @media (max-width: 1024px) {
 
   ul:nth-child(2n) {
@@ -230,36 +153,4 @@ li div.player-value_low {
 .Footer {
   height: 48px;
   margin: 24px 0;
-}
-
-#player-iframe-wrapper {
-  width: 100vw;
-  height: 100vh;
-  max-width: 100%;
-  max-height: 100%;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #000;
-}
-#player-iframe-close {
-  height: 5vh;
-  line-height: 5vh;
-  text-align: center;
-  color: rgba(172,210, 255);
-  z-index: 10;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: #000;
-  margin: 0;
-}
-iframe {
-  height: 100%;
-  width: 100%;
-}
-.hidden {
-  visibility: hidden;
 }

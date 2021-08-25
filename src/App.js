@@ -20,7 +20,17 @@ class App extends Component {
 
                 rows.push(
                     <section className="team" id={roster.ownerName} key={id}>
-                        <h2>{roster.ownerName}</h2>
+                        <div>
+                            <h2>{roster.ownerName}</h2>
+                            <div className="team-badges">
+                                <span className="team-badge text-white-shadow">
+                                    {roster.players.filter(player => player.value>=35).length} studs<br/>
+                                    {roster.players.filter(player => player.value<=5).length} duds
+                                </span>
+                                <span className="team-badge text-white-shadow">{roster.players.length} players</span>
+                            </div>
+                        </div>
+                        
                         <div className="roster">
                             <ul>
                                 <h4>QB</h4>
@@ -38,6 +48,14 @@ class App extends Component {
                                 <h4>WR</h4>
                                 {this.renderPositionGroup(roster.players, 'WR')}
                             </ul>
+                            {/* <ul>
+                                <h4>DEF</h4>
+                                {this.renderPositionGroup(roster.players, 'DEF')}
+                            </ul>
+                            <ul>
+                                <h4>K</h4>
+                                {this.renderPositionGroup(roster.players, 'K')}
+                            </ul> */}
                         </div>
                     </section>
                 )
@@ -107,21 +125,6 @@ class App extends Component {
         return playerList;
     }
 
-    render() {
-        return (
-            <div className="App">
-                <div id="rosters">
-                    {this.renderRosters()}
-                </div>
-
-                <div id="player-iframe-wrapper" className="hidden">
-                    <iframe sandbox="" title="Player iframe | Fantasy Pros" id="player-iframe" src=""></iframe>
-                    <h4 id="player-iframe-close" onClick={this.unsetIframe}>Close [x]</h4>
-                </div>
-            </div>
-        );
-    }
-
     setIframe() {
         if (this.href) {
             const iframeWrapper = document.getElementById('player-iframe-wrapper');
@@ -137,6 +140,21 @@ class App extends Component {
 
         iframeWrapper.classList.add('hidden');
         document.getElementById('player-iframe').src = null;
+    }
+
+    render() {
+        return (
+            <div className="App">
+                <div id="rosters">
+                    {this.renderRosters()}
+                </div>
+
+                <div id="player-iframe-wrapper" className="hidden">
+                    <iframe sandbox="" title="Player iframe | Fantasy Pros" id="player-iframe" src=""></iframe>
+                    <h4 id="player-iframe-close" onClick={this.unsetIframe}>Close [x]</h4>
+                </div>
+            </div>
+        );
     }
 
 }

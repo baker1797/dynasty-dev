@@ -1,0 +1,31 @@
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 25%;
+}
+li {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+li div {
+    line-height: 1.4em;
+    padding: 4px 8px;
+}
+
+ul {
+    border-width: 0;
+}
+ul:first-child {
+    border-color: #000;
+    border-width: 0;
+    border-style: solid;
+}
+ul:nth-child(n+2) {
+    border-color: #000;
+    border-left-width: 4px;
+    border-style: solid;
+}

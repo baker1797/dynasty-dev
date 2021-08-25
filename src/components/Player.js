@@ -21,7 +21,7 @@ class Player {
         this.team = player.team;
         this.rosterStatus = getRosterStatus(team, p);
         this.injuryStatus = player.injury_status;
-        
+
         /* Stats */
         this.value = this.setValue(playerValues);
 
@@ -60,6 +60,10 @@ class Player {
     setValue(playerValues) {
         let value = 0;
         let playerValue = playerValues.find(player => {
+
+            // if (player.name.startsWith('Ronald') && this.name.first === 'Ronald') {
+            //     console.log(player)
+            // }
             return Player.sanitizeName(player.name) === this.name.full;
         });
 
@@ -89,11 +93,11 @@ class Player {
     static sanitizeName(name) {
         name = decode(name)
         name = name.replace(/\./g,'');
-        name = name.replace(/I$/g,'');
-        name = name.replace(/II$/g,'');
-        name = name.replace(/III$/g,'');
         name = name.replace(/IV$/g,'');
-        name = name.replace(new RegExp(' V$'),'');
+        name = name.replace(/III$/g,'');
+        name = name.replace(/II$/g,'');
+        name = name.replace(/I$/g,'');
+        name = name.replace(/V$/g,'');
         name = name.replace('Jr','');
         name = name.replace('\'','');
         name = name.replace('’','');
