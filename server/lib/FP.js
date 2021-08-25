@@ -4,7 +4,7 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 // const Player = require('../../src/components/Player');
 
-const leagueJson = require('./../data/exports/leagues/sleeper/2021-08-24.json');
+const leagueJson = require('./../data/exports/leagues/sleeper/2021/08-25.json');
 const files = [
     {
         site: 'fantasy-pros',
