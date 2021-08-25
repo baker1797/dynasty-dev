@@ -4,7 +4,7 @@
   top: 0;
   right: 0;
   bottom: 0;
-  width: 40%;
+  width: 50%;
   height: 100%;
   background: transparent;
   flex-wrap: wrap;
@@ -12,7 +12,7 @@
   justify-content: flex-end;
 }
 .team-badge {
-  flex: 0 0 22%;
+  flex: 0 0 28%;
   position: relative;
   color: #fff;
   padding: 4px;
