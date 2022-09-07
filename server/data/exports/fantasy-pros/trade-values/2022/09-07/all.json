@@ -1,0 +1,2394 @@
+[
+  {
+    "name": "",
+    "Team": "",
+    "Trade Value": null,
+    "SF Value": "",
+    "value": null,
+    "position": ""
+  },
+  {
+    "name": "Josh Allen",
+    "Team": "BUF",
+    "Trade Value": 38,
+    "SF Value": "83",
+    "value": 83,
+    "position": "QB"
+  },
+  {
+    "name": "Patrick Mahomes II",
+    "Team": "KC",
+    "Trade Value": 36,
+    "SF Value": "82",
+    "value": 82,
+    "position": "QB"
+  },
+  {
+    "name": "Justin Herbert",
+    "Team": "LAC",
+    "Trade Value": 34,
+    "SF Value": "79",
+    "value": 79,
+    "position": "QB"
+  },
+  {
+    "name": "Joe Burrow",
+    "Team": "CIN",
+    "Trade Value": 33,
+    "SF Value": "78",
+    "value": 78,
+    "position": "QB"
+  },
+  {
+    "name": "Kyler Murray",
+    "Team": "ARI",
+    "Trade Value": 31,
+    "SF Value": "75",
+    "value": 75,
+    "position": "QB"
+  },
+  {
+    "name": "Lamar Jackson",
+    "Team": "BAL",
+    "Trade Value": 30,
+    "SF Value": "74",
+    "value": 74,
+    "position": "QB"
+  },
+  {
+    "name": "Jalen Hurts",
+    "Team": "PHI",
+    "Trade Value": 27,
+    "SF Value": "69",
+    "value": 69,
+    "position": "QB"
+  },
+  {
+    "name": "Trey Lance",
+    "Team": "SF",
+    "Trade Value": 25,
+    "SF Value": "66",
+    "value": 66,
+    "position": "QB"
+  },
+  {
+    "name": "Dak Prescott",
+    "Team": "DAL",
+    "Trade Value": 24,
+    "SF Value": "65",
+    "value": 65,
+    "position": "QB"
+  },
+  {
+    "name": "Deshaun Watson",
+    "Team": "CLE",
+    "Trade Value": 22,
+    "SF Value": "62",
+    "value": 62,
+    "position": "QB"
+  },
+  {
+    "name": "Justin Fields",
+    "Team": "CHI",
+    "Trade Value": 21,
+    "SF Value": "60",
+    "value": 60,
+    "position": "QB"
+  },
+  {
+    "name": "Russell Wilson",
+    "Team": "DEN",
+    "Trade Value": 20,
+    "SF Value": "58",
+    "value": 58,
+    "position": "QB"
+  },
+  {
+    "name": "Aaron Rodgers",
+    "Team": "GB",
+    "Trade Value": 17,
+    "SF Value": "53",
+    "value": 53,
+    "position": "QB"
+  },
+  {
+    "name": "Trevor Lawrence",
+    "Team": "JAC",
+    "Trade Value": 16,
+    "SF Value": "52",
+    "value": 52,
+    "position": "QB"
+  },
+  {
+    "name": "Matthew Stafford",
+    "Team": "LAR",
+    "Trade Value": 16,
+    "SF Value": "52",
+    "value": 52,
+    "position": "QB"
+  },
+  {
+    "name": "Derek Carr",
+    "Team": "LV",
+    "Trade Value": 15,
+    "SF Value": "50",
+    "value": 50,
+    "position": "QB"
+  },
+  {
+    "name": "Mac Jones",
+    "Team": "NE",
+    "Trade Value": 14,
+    "SF Value": "47",
+    "value": 47,
+    "position": "QB"
+  },
+  {
+    "name": "Kirk Cousins",
+    "Team": "MIN",
+    "Trade Value": 13,
+    "SF Value": "45",
+    "value": 45,
+    "position": "QB"
+  },
+  {
+    "name": "Tua Tagovailoa",
+    "Team": "MIA",
+    "Trade Value": 12,
+    "SF Value": "43",
+    "value": 43,
+    "position": "QB"
+  },
+  {
+    "name": "Zach Wilson",
+    "Team": "NYJ",
+    "Trade Value": 9,
+    "SF Value": "36",
+    "value": 36,
+    "position": "QB"
+  },
+  {
+    "name": "Tom Brady",
+    "Team": "TB",
+    "Trade Value": 7,
+    "SF Value": "32",
+    "value": 32,
+    "position": "QB"
+  },
+  {
+    "name": "Kenny Pickett",
+    "Team": "PIT",
+    "Trade Value": 7,
+    "SF Value": "31",
+    "value": 31,
+    "position": "QB"
+  },
+  {
+    "name": "Jameis Winston",
+    "Team": "NO",
+    "Trade Value": 7,
+    "SF Value": "30",
+    "value": 30,
+    "position": "QB"
+  },
+  {
+    "name": "Malik Willis",
+    "Team": "TEN",
+    "Trade Value": 6,
+    "SF Value": "30",
+    "value": 30,
+    "position": "QB"
+  },
+  {
+    "name": "Baker Mayfield",
+    "Team": "CAR",
+    "Trade Value": 6,
+    "SF Value": "28",
+    "value": 28,
+    "position": "QB"
+  },
+  {
+    "name": "Matt Ryan",
+    "Team": "IND",
+    "Trade Value": 6,
+    "SF Value": "28",
+    "value": 28,
+    "position": "QB"
+  },
+  {
+    "name": "Ryan Tannehill",
+    "Team": "TEN",
+    "Trade Value": 6,
+    "SF Value": "28",
+    "value": 28,
+    "position": "QB"
+  },
+  {
+    "name": "Daniel Jones",
+    "Team": "NYG",
+    "Trade Value": 5,
+    "SF Value": "27",
+    "value": 27,
+    "position": "QB"
+  },
+  {
+    "name": "Davis Mills",
+    "Team": "HOU",
+    "Trade Value": 5,
+    "SF Value": "26",
+    "value": 26,
+    "position": "QB"
+  },
+  {
+    "name": "Desmond Ridder",
+    "Team": "ATL",
+    "Trade Value": 5,
+    "SF Value": "24",
+    "value": 24,
+    "position": "QB"
+  },
+  {
+    "name": "Jared Goff",
+    "Team": "DET",
+    "Trade Value": 4,
+    "SF Value": "23",
+    "value": 23,
+    "position": "QB"
+  },
+  {
+    "name": "Carson Wentz",
+    "Team": "WAS",
+    "Trade Value": 4,
+    "SF Value": "21",
+    "value": 21,
+    "position": "QB"
+  },
+  {
+    "name": "Marcus Mariota",
+    "Team": "ATL",
+    "Trade Value": 2,
+    "SF Value": "13",
+    "value": 13,
+    "position": "QB"
+  },
+  {
+    "name": "Mitch Trubisky",
+    "Team": "PIT",
+    "Trade Value": 2,
+    "SF Value": "11",
+    "value": 11,
+    "position": "QB"
+  },
+  {
+    "name": "Jimmy Garoppolo",
+    "Team": "SF",
+    "Trade Value": 2,
+    "SF Value": "9",
+    "value": 9,
+    "position": "QB"
+  },
+  {
+    "name": "Geno Smith",
+    "Team": "SEA",
+    "Trade Value": 1,
+    "SF Value": "7",
+    "value": 7,
+    "position": "QB"
+  },
+  {
+    "name": "Matt Corral",
+    "Team": "CAR",
+    "Trade Value": 1,
+    "SF Value": "6",
+    "value": 6,
+    "position": "QB"
+  },
+  {
+    "name": "Sam Howell",
+    "Team": "WAS",
+    "Trade Value": 1,
+    "SF Value": "5",
+    "value": 5,
+    "position": "QB"
+  },
+  {
+    "name": "Jacoby Brissett",
+    "Team": "CLE",
+    "Trade Value": 1,
+    "SF Value": "5",
+    "value": 5,
+    "position": "QB"
+  },
+  {
+    "name": "Gardner Minshew II",
+    "Team": "PHI",
+    "Trade Value": 1,
+    "SF Value": "4",
+    "value": 4,
+    "position": "QB"
+  },
+  {
+    "name": "Sam Darnold",
+    "Team": "CAR",
+    "Trade Value": 1,
+    "SF Value": "4",
+    "value": 4,
+    "position": "QB"
+  },
+  {
+    "name": "Teddy Bridgewater",
+    "Team": "MIA",
+    "Trade Value": 1,
+    "SF Value": "4",
+    "value": 4,
+    "position": "QB"
+  },
+  {
+    "name": "Jordan Love",
+    "Team": "GB",
+    "Trade Value": 1,
+    "SF Value": "4",
+    "value": 4,
+    "position": "QB"
+  },
+  {
+    "name": "All Other QBs",
+    "Team": "",
+    "Trade Value": 1,
+    "SF Value": "2",
+    "value": 2,
+    "position": "QB"
+  },
+  {
+    "name": "Jonathan Taylor",
+    "Team": "IND",
+    "Trade Value": 74,
+    "SF Value": "-",
+    "value": 74,
+    "position": "RB"
+  },
+  {
+    "name": "Christian McCaffrey",
+    "Team": "CAR",
+    "Trade Value": 69,
+    "SF Value": "1",
+    "value": 69,
+    "position": "RB"
+  },
+  {
+    "name": "Javonte Williams",
+    "Team": "DEN",
+    "Trade Value": 69,
+    "SF Value": "−2",
+    "value": 69,
+    "position": "RB"
+  },
+  {
+    "name": "Najee Harris",
+    "Team": "PIT",
+    "Trade Value": 68,
+    "SF Value": "-",
+    "value": 68,
+    "position": "RB"
+  },
+  {
+    "name": "D'Andre Swift",
+    "Team": "DET",
+    "Trade Value": 67,
+    "SF Value": "-",
+    "value": 67,
+    "position": "RB"
+  },
+  {
+    "name": "Breece Hall",
+    "Team": "NYJ",
+    "Trade Value": 65,
+    "SF Value": "5",
+    "value": 65,
+    "position": "RB"
+  },
+  {
+    "name": "Joe Mixon",
+    "Team": "CIN",
+    "Trade Value": 57,
+    "SF Value": "−1",
+    "value": 57,
+    "position": "RB"
+  },
+  {
+    "name": "Saquon Barkley",
+    "Team": "NYG",
+    "Trade Value": 57,
+    "SF Value": "-",
+    "value": 57,
+    "position": "RB"
+  },
+  {
+    "name": "Travis Etienne Jr.",
+    "Team": "JAC",
+    "Trade Value": 57,
+    "SF Value": "5",
+    "value": 57,
+    "position": "RB"
+  },
+  {
+    "name": "Austin Ekeler",
+    "Team": "LAC",
+    "Trade Value": 55,
+    "SF Value": "−2",
+    "value": 55,
+    "position": "RB"
+  },
+  {
+    "name": "Cam Akers",
+    "Team": "LAR",
+    "Trade Value": 54,
+    "SF Value": "−4",
+    "value": 54,
+    "position": "RB"
+  },
+  {
+    "name": "Dalvin Cook",
+    "Team": "MIN",
+    "Trade Value": 52,
+    "SF Value": "-",
+    "value": 52,
+    "position": "RB"
+  },
+  {
+    "name": "Nick Chubb",
+    "Team": "CLE",
+    "Trade Value": 51,
+    "SF Value": "−1",
+    "value": 51,
+    "position": "RB"
+  },
+  {
+    "name": "Alvin Kamara",
+    "Team": "NO",
+    "Trade Value": 50,
+    "SF Value": "−2",
+    "value": 50,
+    "position": "RB"
+  },
+  {
+    "name": "Ken Walker III",
+    "Team": "SEA",
+    "Trade Value": 47,
+    "SF Value": "−1",
+    "value": 47,
+    "position": "RB"
+  },
+  {
+    "name": "Derrick Henry",
+    "Team": "TEN",
+    "Trade Value": 46,
+    "SF Value": "−1",
+    "value": 46,
+    "position": "RB"
+  },
+  {
+    "name": "AJ Dillon",
+    "Team": "GB",
+    "Trade Value": 42,
+    "SF Value": "4",
+    "value": 42,
+    "position": "RB"
+  },
+  {
+    "name": "Aaron Jones",
+    "Team": "GB",
+    "Trade Value": 41,
+    "SF Value": "3",
+    "value": 41,
+    "position": "RB"
+  },
+  {
+    "name": "J.K. Dobbins",
+    "Team": "BAL",
+    "Trade Value": 38,
+    "SF Value": "−1",
+    "value": 38,
+    "position": "RB"
+  },
+  {
+    "name": "Leonard Fournette",
+    "Team": "TB",
+    "Trade Value": 36,
+    "SF Value": "−1",
+    "value": 36,
+    "position": "RB"
+  },
+  {
+    "name": "Antonio Gibson",
+    "Team": "WAS",
+    "Trade Value": 33,
+    "SF Value": "−8",
+    "value": 33,
+    "position": "RB"
+  },
+  {
+    "name": "James Conner",
+    "Team": "ARI",
+    "Trade Value": 33,
+    "SF Value": "−3",
+    "value": 33,
+    "position": "RB"
+  },
+  {
+    "name": "Elijah Mitchell",
+    "Team": "SF",
+    "Trade Value": 33,
+    "SF Value": "−4",
+    "value": 33,
+    "position": "RB"
+  },
+  {
+    "name": "David Montgomery",
+    "Team": "CHI",
+    "Trade Value": 31,
+    "SF Value": "−3",
+    "value": 31,
+    "position": "RB"
+  },
+  {
+    "name": "Dameon Pierce",
+    "Team": "HOU",
+    "Trade Value": 31,
+    "SF Value": "10",
+    "value": 31,
+    "position": "RB"
+  },
+  {
+    "name": "Tony Pollard",
+    "Team": "DAL",
+    "Trade Value": 30,
+    "SF Value": "-",
+    "value": 30,
+    "position": "RB"
+  },
+  {
+    "name": "Josh Jacobs",
+    "Team": "LV",
+    "Trade Value": 30,
+    "SF Value": "−3",
+    "value": 30,
+    "position": "RB"
+  },
+  {
+    "name": "Rhamondre Stevenson",
+    "Team": "NE",
+    "Trade Value": 29,
+    "SF Value": "3",
+    "value": 29,
+    "position": "RB"
+  },
+  {
+    "name": "Ezekiel Elliott",
+    "Team": "DAL",
+    "Trade Value": 27,
+    "SF Value": "−3",
+    "value": 27,
+    "position": "RB"
+  },
+  {
+    "name": "James Cook",
+    "Team": "BUF",
+    "Trade Value": 27,
+    "SF Value": "-",
+    "value": 27,
+    "position": "RB"
+  },
+  {
+    "name": "Miles Sanders",
+    "Team": "PHI",
+    "Trade Value": 24,
+    "SF Value": "−1",
+    "value": 24,
+    "position": "RB"
+  },
+  {
+    "name": "Kareem Hunt",
+    "Team": "CLE",
+    "Trade Value": 24,
+    "SF Value": "-",
+    "value": 24,
+    "position": "RB"
+  },
+  {
+    "name": "Clyde Edwards-Helaire",
+    "Team": "KC",
+    "Trade Value": 24,
+    "SF Value": "−1",
+    "value": 24,
+    "position": "RB"
+  },
+  {
+    "name": "Chase Edmonds",
+    "Team": "MIA",
+    "Trade Value": 23,
+    "SF Value": "1",
+    "value": 23,
+    "position": "RB"
+  },
+  {
+    "name": "Brian Robinson Jr.",
+    "Team": "WAS",
+    "Trade Value": 20,
+    "SF Value": "9",
+    "value": 20,
+    "position": "RB"
+  },
+  {
+    "name": "Rachaad White",
+    "Team": "TB",
+    "Trade Value": 19,
+    "SF Value": "−2",
+    "value": 19,
+    "position": "RB"
+  },
+  {
+    "name": "Damien Harris",
+    "Team": "NE",
+    "Trade Value": 18,
+    "SF Value": "−4",
+    "value": 18,
+    "position": "RB"
+  },
+  {
+    "name": "Michael Carter",
+    "Team": "NYJ",
+    "Trade Value": 17,
+    "SF Value": "-",
+    "value": 17,
+    "position": "RB"
+  },
+  {
+    "name": "Rashaad Penny",
+    "Team": "SEA",
+    "Trade Value": 14,
+    "SF Value": "2",
+    "value": 14,
+    "position": "RB"
+  },
+  {
+    "name": "Devin Singletary",
+    "Team": "BUF",
+    "Trade Value": 14,
+    "SF Value": "-",
+    "value": 14,
+    "position": "RB"
+  },
+  {
+    "name": "Alexander Mattison",
+    "Team": "MIN",
+    "Trade Value": 13,
+    "SF Value": "2",
+    "value": 13,
+    "position": "RB"
+  },
+  {
+    "name": "Khalil Herbert",
+    "Team": "CHI",
+    "Trade Value": 12,
+    "SF Value": "4",
+    "value": 12,
+    "position": "RB"
+  },
+  {
+    "name": "Isaiah Spiller",
+    "Team": "LAC",
+    "Trade Value": 12,
+    "SF Value": "−3",
+    "value": 12,
+    "position": "RB"
+  },
+  {
+    "name": "Kenneth Gainwell",
+    "Team": "PHI",
+    "Trade Value": 11,
+    "SF Value": "5",
+    "value": 11,
+    "position": "RB"
+  },
+  {
+    "name": "Zamir White",
+    "Team": "LV",
+    "Trade Value": 9,
+    "SF Value": "2",
+    "value": 9,
+    "position": "RB"
+  },
+  {
+    "name": "James Robinson",
+    "Team": "JAC",
+    "Trade Value": 9,
+    "SF Value": "−2",
+    "value": 9,
+    "position": "RB"
+  },
+  {
+    "name": "Tyrion Davis-Price",
+    "Team": "SF",
+    "Trade Value": 9,
+    "SF Value": "−1",
+    "value": 9,
+    "position": "RB"
+  },
+  {
+    "name": "Melvin Gordon III",
+    "Team": "DEN",
+    "Trade Value": 8,
+    "SF Value": "2",
+    "value": 8,
+    "position": "RB"
+  },
+  {
+    "name": "Darrell Henderson Jr.",
+    "Team": "LAR",
+    "Trade Value": 7,
+    "SF Value": "2",
+    "value": 7,
+    "position": "RB"
+  },
+  {
+    "name": "Tyler Allgeier",
+    "Team": "ATL",
+    "Trade Value": 6,
+    "SF Value": "-",
+    "value": 6,
+    "position": "RB"
+  },
+  {
+    "name": "Nyheim Hines",
+    "Team": "IND",
+    "Trade Value": 6,
+    "SF Value": "2",
+    "value": 6,
+    "position": "RB"
+  },
+  {
+    "name": "D'Ernest Johnson",
+    "Team": "CLE",
+    "Trade Value": 6,
+    "SF Value": "-",
+    "value": 6,
+    "position": "RB"
+  },
+  {
+    "name": "Hassan Haskins",
+    "Team": "TEN",
+    "Trade Value": 5,
+    "SF Value": "-",
+    "value": 5,
+    "position": "RB"
+  },
+  {
+    "name": "Isiah Pacheco",
+    "Team": "KC",
+    "Trade Value": 5,
+    "SF Value": "3",
+    "value": 5,
+    "position": "RB"
+  },
+  {
+    "name": "Pierre Strong Jr.",
+    "Team": "NE",
+    "Trade Value": 4,
+    "SF Value": "1",
+    "value": 4,
+    "position": "RB"
+  },
+  {
+    "name": "Cordarrelle Patterson",
+    "Team": "ATL",
+    "Trade Value": 4,
+    "SF Value": "1",
+    "value": 4,
+    "position": "RB"
+  },
+  {
+    "name": "J.D. McKissic",
+    "Team": "WAS",
+    "Trade Value": 3,
+    "SF Value": "-",
+    "value": 3,
+    "position": "RB"
+  },
+  {
+    "name": "Jamaal Williams",
+    "Team": "DET",
+    "Trade Value": 3,
+    "SF Value": "-",
+    "value": 3,
+    "position": "RB"
+  },
+  {
+    "name": "Chris Evans",
+    "Team": "CIN",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "D'Onta Foreman",
+    "Team": "CAR",
+    "Trade Value": 2,
+    "SF Value": "−1",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Darrel Williams",
+    "Team": "ARI",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Gus Edwards",
+    "Team": "BAL",
+    "Trade Value": 2,
+    "SF Value": "−1",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Eno Benjamin",
+    "Team": "ARI",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Jerome Ford",
+    "Team": "CLE",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Sony Michel",
+    "Team": "FA",
+    "Trade Value": 2,
+    "SF Value": "−2",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Trey Sermon",
+    "Team": "SF",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Jaylen Warren",
+    "Team": "PIT",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Chuba Hubbard",
+    "Team": "CAR",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Kenyan Drake",
+    "Team": "BAL",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Raheem Mostert",
+    "Team": "MIA",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Jerick McKinnon",
+    "Team": "KC",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Jashaun Corbin",
+    "Team": "FA",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Ronald Jones II",
+    "Team": "KC",
+    "Trade Value": 2,
+    "SF Value": "−2",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Jeff Wilson Jr.",
+    "Team": "SF",
+    "Trade Value": 2,
+    "SF Value": "New",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Samaje Perine",
+    "Team": "CIN",
+    "Trade Value": 2,
+    "SF Value": "New",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Dontrell Hilliard",
+    "Team": "TEN",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Ke'Shawn Vaughn",
+    "Team": "TB",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Rico Dowdle",
+    "Team": "DAL",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Kene Nwangwu",
+    "Team": "MIN",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Trestan Ebner",
+    "Team": "CHI",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Kyren Williams",
+    "Team": "LAR",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Mark Ingram II",
+    "Team": "NO",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Keaontay Ingram",
+    "Team": "ARI",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Mataeo Durant",
+    "Team": "FA",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Marlon Mack",
+    "Team": "FA",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Rex Burkhead",
+    "Team": "HOU",
+    "Trade Value": 2,
+    "SF Value": "New",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Boston Scott",
+    "Team": "PHI",
+    "Trade Value": 2,
+    "SF Value": "New",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "Craig Reynolds",
+    "Team": "DET",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "RB"
+  },
+  {
+    "name": "All Other RBs",
+    "Team": "",
+    "Trade Value": 1,
+    "SF Value": "",
+    "value": 1,
+    "position": "RB"
+  },
+  {
+    "name": "Ja'Marr Chase",
+    "Team": "CIN",
+    "Trade Value": 73,
+    "SF Value": "-",
+    "value": 73,
+    "position": "WR"
+  },
+  {
+    "name": "Justin Jefferson",
+    "Team": "MIN",
+    "Trade Value": 72,
+    "SF Value": "-",
+    "value": 72,
+    "position": "WR"
+  },
+  {
+    "name": "CeeDee Lamb",
+    "Team": "DAL",
+    "Trade Value": 70,
+    "SF Value": "-",
+    "value": 70,
+    "position": "WR"
+  },
+  {
+    "name": "Cooper Kupp",
+    "Team": "LAR",
+    "Trade Value": 69,
+    "SF Value": "-",
+    "value": 69,
+    "position": "WR"
+  },
+  {
+    "name": "A.J. Brown",
+    "Team": "PHI",
+    "Trade Value": 67,
+    "SF Value": "-",
+    "value": 67,
+    "position": "WR"
+  },
+  {
+    "name": "Davante Adams",
+    "Team": "LV",
+    "Trade Value": 66,
+    "SF Value": "3",
+    "value": 66,
+    "position": "WR"
+  },
+  {
+    "name": "DK Metcalf",
+    "Team": "SEA",
+    "Trade Value": 65,
+    "SF Value": "-",
+    "value": 65,
+    "position": "WR"
+  },
+  {
+    "name": "Michael Pittman Jr.",
+    "Team": "IND",
+    "Trade Value": 63,
+    "SF Value": "5",
+    "value": 63,
+    "position": "WR"
+  },
+  {
+    "name": "Jaylen Waddle",
+    "Team": "MIA",
+    "Trade Value": 62,
+    "SF Value": "2",
+    "value": 62,
+    "position": "WR"
+  },
+  {
+    "name": "Stefon Diggs",
+    "Team": "BUF",
+    "Trade Value": 60,
+    "SF Value": "−2",
+    "value": 60,
+    "position": "WR"
+  },
+  {
+    "name": "Tee Higgins",
+    "Team": "CIN",
+    "Trade Value": 59,
+    "SF Value": "−7",
+    "value": 59,
+    "position": "WR"
+  },
+  {
+    "name": "Tyreek Hill",
+    "Team": "MIA",
+    "Trade Value": 58,
+    "SF Value": "2",
+    "value": 58,
+    "position": "WR"
+  },
+  {
+    "name": "Deebo Samuel",
+    "Team": "SF",
+    "Trade Value": 56,
+    "SF Value": "−3",
+    "value": 56,
+    "position": "WR"
+  },
+  {
+    "name": "Drake London",
+    "Team": "ATL",
+    "Trade Value": 55,
+    "SF Value": "-",
+    "value": 55,
+    "position": "WR"
+  },
+  {
+    "name": "DJ Moore",
+    "Team": "CAR",
+    "Trade Value": 54,
+    "SF Value": "-",
+    "value": 54,
+    "position": "WR"
+  },
+  {
+    "name": "Rashod Bateman",
+    "Team": "BAL",
+    "Trade Value": 52,
+    "SF Value": "-",
+    "value": 52,
+    "position": "WR"
+  },
+  {
+    "name": "Jameson Williams",
+    "Team": "DET",
+    "Trade Value": 51,
+    "SF Value": "3",
+    "value": 51,
+    "position": "WR"
+  },
+  {
+    "name": "Chris Godwin",
+    "Team": "TB",
+    "Trade Value": 50,
+    "SF Value": "1",
+    "value": 50,
+    "position": "WR"
+  },
+  {
+    "name": "Terry McLaurin",
+    "Team": "WAS",
+    "Trade Value": 49,
+    "SF Value": "3",
+    "value": 49,
+    "position": "WR"
+  },
+  {
+    "name": "Garrett Wilson",
+    "Team": "NYJ",
+    "Trade Value": 48,
+    "SF Value": "−2",
+    "value": 48,
+    "position": "WR"
+  },
+  {
+    "name": "Diontae Johnson",
+    "Team": "PIT",
+    "Trade Value": 46,
+    "SF Value": "−5",
+    "value": 46,
+    "position": "WR"
+  },
+  {
+    "name": "Chris Olave",
+    "Team": "NO",
+    "Trade Value": 45,
+    "SF Value": "-",
+    "value": 45,
+    "position": "WR"
+  },
+  {
+    "name": "Elijah Moore",
+    "Team": "NYJ",
+    "Trade Value": 44,
+    "SF Value": "4",
+    "value": 44,
+    "position": "WR"
+  },
+  {
+    "name": "Courtland Sutton",
+    "Team": "DEN",
+    "Trade Value": 43,
+    "SF Value": "1",
+    "value": 43,
+    "position": "WR"
+  },
+  {
+    "name": "Amon-Ra St. Brown",
+    "Team": "DET",
+    "Trade Value": 42,
+    "SF Value": "6",
+    "value": 42,
+    "position": "WR"
+  },
+  {
+    "name": "Gabriel Davis",
+    "Team": "BUF",
+    "Trade Value": 41,
+    "SF Value": "7",
+    "value": 41,
+    "position": "WR"
+  },
+  {
+    "name": "DeVonta Smith",
+    "Team": "PHI",
+    "Trade Value": 40,
+    "SF Value": "−1",
+    "value": 40,
+    "position": "WR"
+  },
+  {
+    "name": "Skyy Moore",
+    "Team": "KC",
+    "Trade Value": 38,
+    "SF Value": "−6",
+    "value": 38,
+    "position": "WR"
+  },
+  {
+    "name": "Mike Williams",
+    "Team": "LAC",
+    "Trade Value": 37,
+    "SF Value": "-",
+    "value": 37,
+    "position": "WR"
+  },
+  {
+    "name": "Jahan Dotson",
+    "Team": "WAS",
+    "Trade Value": 36,
+    "SF Value": "1",
+    "value": 36,
+    "position": "WR"
+  },
+  {
+    "name": "Treylon Burks",
+    "Team": "TEN",
+    "Trade Value": 35,
+    "SF Value": "−8",
+    "value": 35,
+    "position": "WR"
+  },
+  {
+    "name": "Jerry Jeudy",
+    "Team": "DEN",
+    "Trade Value": 34,
+    "SF Value": "−4",
+    "value": 34,
+    "position": "WR"
+  },
+  {
+    "name": "Darnell Mooney",
+    "Team": "CHI",
+    "Trade Value": 33,
+    "SF Value": "2",
+    "value": 33,
+    "position": "WR"
+  },
+  {
+    "name": "Mike Evans",
+    "Team": "TB",
+    "Trade Value": 32,
+    "SF Value": "−1",
+    "value": 32,
+    "position": "WR"
+  },
+  {
+    "name": "Christian Watson",
+    "Team": "GB",
+    "Trade Value": 31,
+    "SF Value": "−1",
+    "value": 31,
+    "position": "WR"
+  },
+  {
+    "name": "Marquise Brown",
+    "Team": "ARI",
+    "Trade Value": 30,
+    "SF Value": "1",
+    "value": 30,
+    "position": "WR"
+  },
+  {
+    "name": "Keenan Allen",
+    "Team": "LAC",
+    "Trade Value": 29,
+    "SF Value": "-",
+    "value": 29,
+    "position": "WR"
+  },
+  {
+    "name": "Allen Robinson II",
+    "Team": "LAR",
+    "Trade Value": 29,
+    "SF Value": "8",
+    "value": 29,
+    "position": "WR"
+  },
+  {
+    "name": "Amari Cooper",
+    "Team": "CLE",
+    "Trade Value": 28,
+    "SF Value": "−2",
+    "value": 28,
+    "position": "WR"
+  },
+  {
+    "name": "Kadarius Toney",
+    "Team": "NYG",
+    "Trade Value": 27,
+    "SF Value": "1",
+    "value": 27,
+    "position": "WR"
+  },
+  {
+    "name": "Brandon Aiyuk",
+    "Team": "SF",
+    "Trade Value": 26,
+    "SF Value": "1",
+    "value": 26,
+    "position": "WR"
+  },
+  {
+    "name": "DeAndre Hopkins",
+    "Team": "ARI",
+    "Trade Value": 25,
+    "SF Value": "2",
+    "value": 25,
+    "position": "WR"
+  },
+  {
+    "name": "Christian Kirk",
+    "Team": "JAC",
+    "Trade Value": 24,
+    "SF Value": "1",
+    "value": 24,
+    "position": "WR"
+  },
+  {
+    "name": "Brandin Cooks",
+    "Team": "HOU",
+    "Trade Value": 23,
+    "SF Value": "−5",
+    "value": 23,
+    "position": "WR"
+  },
+  {
+    "name": "George Pickens",
+    "Team": "PIT",
+    "Trade Value": 23,
+    "SF Value": "4",
+    "value": 23,
+    "position": "WR"
+  },
+  {
+    "name": "Chase Claypool",
+    "Team": "PIT",
+    "Trade Value": 22,
+    "SF Value": "−5",
+    "value": 22,
+    "position": "WR"
+  },
+  {
+    "name": "Michael Thomas",
+    "Team": "NO",
+    "Trade Value": 21,
+    "SF Value": "−3",
+    "value": 21,
+    "position": "WR"
+  },
+  {
+    "name": "Tyler Lockett",
+    "Team": "SEA",
+    "Trade Value": 20,
+    "SF Value": "−2",
+    "value": 20,
+    "position": "WR"
+  },
+  {
+    "name": "Hunter Renfrow",
+    "Team": "LV",
+    "Trade Value": 19,
+    "SF Value": "−1",
+    "value": 19,
+    "position": "WR"
+  },
+  {
+    "name": "JuJu Smith-Schuster",
+    "Team": "KC",
+    "Trade Value": 19,
+    "SF Value": "-",
+    "value": 19,
+    "position": "WR"
+  },
+  {
+    "name": "Michael Gallup",
+    "Team": "DAL",
+    "Trade Value": 18,
+    "SF Value": "-",
+    "value": 18,
+    "position": "WR"
+  },
+  {
+    "name": "Jalen Tolbert",
+    "Team": "DAL",
+    "Trade Value": 17,
+    "SF Value": "-",
+    "value": 17,
+    "position": "WR"
+  },
+  {
+    "name": "Rondale Moore",
+    "Team": "ARI",
+    "Trade Value": 17,
+    "SF Value": "1",
+    "value": 17,
+    "position": "WR"
+  },
+  {
+    "name": "Alec Pierce",
+    "Team": "IND",
+    "Trade Value": 16,
+    "SF Value": "2",
+    "value": 16,
+    "position": "WR"
+  },
+  {
+    "name": "Allen Lazard",
+    "Team": "GB",
+    "Trade Value": 15,
+    "SF Value": "2",
+    "value": 15,
+    "position": "WR"
+  },
+  {
+    "name": "Wan'Dale Robinson",
+    "Team": "NYG",
+    "Trade Value": 15,
+    "SF Value": "3",
+    "value": 15,
+    "position": "WR"
+  },
+  {
+    "name": "David Bell",
+    "Team": "CLE",
+    "Trade Value": 14,
+    "SF Value": "1",
+    "value": 14,
+    "position": "WR"
+  },
+  {
+    "name": "Jakobi Meyers",
+    "Team": "NE",
+    "Trade Value": 13,
+    "SF Value": "−2",
+    "value": 13,
+    "position": "WR"
+  },
+  {
+    "name": "Calvin Ridley",
+    "Team": "ATL",
+    "Trade Value": 13,
+    "SF Value": "−2",
+    "value": 13,
+    "position": "WR"
+  },
+  {
+    "name": "Russell Gage",
+    "Team": "TB",
+    "Trade Value": 12,
+    "SF Value": "−5",
+    "value": 12,
+    "position": "WR"
+  },
+  {
+    "name": "Tyler Boyd",
+    "Team": "CIN",
+    "Trade Value": 12,
+    "SF Value": "-",
+    "value": 12,
+    "position": "WR"
+  },
+  {
+    "name": "Adam Thielen",
+    "Team": "MIN",
+    "Trade Value": 11,
+    "SF Value": "-",
+    "value": 11,
+    "position": "WR"
+  },
+  {
+    "name": "Romeo Doubs",
+    "Team": "GB",
+    "Trade Value": 11,
+    "SF Value": "7",
+    "value": 11,
+    "position": "WR"
+  },
+  {
+    "name": "Khalil Shakir",
+    "Team": "BUF",
+    "Trade Value": 10,
+    "SF Value": "2",
+    "value": 10,
+    "position": "WR"
+  },
+  {
+    "name": "Joshua Palmer",
+    "Team": "LAC",
+    "Trade Value": 10,
+    "SF Value": "-",
+    "value": 10,
+    "position": "WR"
+  },
+  {
+    "name": "DJ Chark Jr.",
+    "Team": "DET",
+    "Trade Value": 9,
+    "SF Value": "-",
+    "value": 9,
+    "position": "WR"
+  },
+  {
+    "name": "Tyquan Thornton",
+    "Team": "NE",
+    "Trade Value": 9,
+    "SF Value": "2",
+    "value": 9,
+    "position": "WR"
+  },
+  {
+    "name": "Robert Woods",
+    "Team": "TEN",
+    "Trade Value": 8,
+    "SF Value": "−1",
+    "value": 8,
+    "position": "WR"
+  },
+  {
+    "name": "Nico Collins",
+    "Team": "HOU",
+    "Trade Value": 8,
+    "SF Value": "4",
+    "value": 8,
+    "position": "WR"
+  },
+  {
+    "name": "Kenny Golladay",
+    "Team": "NYG",
+    "Trade Value": 8,
+    "SF Value": "−2",
+    "value": 8,
+    "position": "WR"
+  },
+  {
+    "name": "Jarvis Landry",
+    "Team": "NO",
+    "Trade Value": 7,
+    "SF Value": "1",
+    "value": 7,
+    "position": "WR"
+  },
+  {
+    "name": "Marquez Valdes-Scantling",
+    "Team": "KC",
+    "Trade Value": 7,
+    "SF Value": "1",
+    "value": 7,
+    "position": "WR"
+  },
+  {
+    "name": "John Metchie III",
+    "Team": "HOU",
+    "Trade Value": 6,
+    "SF Value": "−5",
+    "value": 6,
+    "position": "WR"
+  },
+  {
+    "name": "Isaiah McKenzie",
+    "Team": "BUF",
+    "Trade Value": 6,
+    "SF Value": "4",
+    "value": 6,
+    "position": "WR"
+  },
+  {
+    "name": "KJ Hamler",
+    "Team": "DEN",
+    "Trade Value": 6,
+    "SF Value": "2",
+    "value": 6,
+    "position": "WR"
+  },
+  {
+    "name": "Corey Davis",
+    "Team": "NYJ",
+    "Trade Value": 5,
+    "SF Value": "−3",
+    "value": 5,
+    "position": "WR"
+  },
+  {
+    "name": "Parris Campbell",
+    "Team": "IND",
+    "Trade Value": 5,
+    "SF Value": "2",
+    "value": 5,
+    "position": "WR"
+  },
+  {
+    "name": "Odell Beckham Jr.",
+    "Team": "FA",
+    "Trade Value": 5,
+    "SF Value": "−3",
+    "value": 5,
+    "position": "WR"
+  },
+  {
+    "name": "K.J. Osborn",
+    "Team": "MIN",
+    "Trade Value": 5,
+    "SF Value": "2",
+    "value": 5,
+    "position": "WR"
+  },
+  {
+    "name": "Julio Jones",
+    "Team": "TB",
+    "Trade Value": 4,
+    "SF Value": "−1",
+    "value": 4,
+    "position": "WR"
+  },
+  {
+    "name": "Van Jefferson",
+    "Team": "LAR",
+    "Trade Value": 4,
+    "SF Value": "−2",
+    "value": 4,
+    "position": "WR"
+  },
+  {
+    "name": "Laviska Shenault Jr.",
+    "Team": "CAR",
+    "Trade Value": 4,
+    "SF Value": "−1",
+    "value": 4,
+    "position": "WR"
+  },
+  {
+    "name": "Tim Patrick",
+    "Team": "DEN",
+    "Trade Value": 4,
+    "SF Value": "−1",
+    "value": 4,
+    "position": "WR"
+  },
+  {
+    "name": "DeVante Parker",
+    "Team": "NE",
+    "Trade Value": 3,
+    "SF Value": "-",
+    "value": 3,
+    "position": "WR"
+  },
+  {
+    "name": "Terrace Marshall Jr.",
+    "Team": "CAR",
+    "Trade Value": 3,
+    "SF Value": "−4",
+    "value": 3,
+    "position": "WR"
+  },
+  {
+    "name": "Bo Melton",
+    "Team": "FA",
+    "Trade Value": 3,
+    "SF Value": "1",
+    "value": 3,
+    "position": "WR"
+  },
+  {
+    "name": "William Fuller V",
+    "Team": "FA",
+    "Trade Value": 3,
+    "SF Value": "−2",
+    "value": 3,
+    "position": "WR"
+  },
+  {
+    "name": "Donovan Peoples-Jones",
+    "Team": "CLE",
+    "Trade Value": 3,
+    "SF Value": "1",
+    "value": 3,
+    "position": "WR"
+  },
+  {
+    "name": "Marquez Callaway",
+    "Team": "NO",
+    "Trade Value": 3,
+    "SF Value": "-",
+    "value": 3,
+    "position": "WR"
+  },
+  {
+    "name": "Calvin Austin III",
+    "Team": "PIT",
+    "Trade Value": 3,
+    "SF Value": "-",
+    "value": 3,
+    "position": "WR"
+  },
+  {
+    "name": "Mecole Hardman",
+    "Team": "KC",
+    "Trade Value": 3,
+    "SF Value": "-",
+    "value": 3,
+    "position": "WR"
+  },
+  {
+    "name": "Kyle Philips",
+    "Team": "TEN",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Velus Jones Jr.",
+    "Team": "CHI",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Sterling Shepard",
+    "Team": "NYG",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Tutu Atwell",
+    "Team": "LAR",
+    "Trade Value": 2,
+    "SF Value": "New",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Justyn Ross",
+    "Team": "KC",
+    "Trade Value": 2,
+    "SF Value": "−1",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Curtis Samuel",
+    "Team": "WAS",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Marvin Jones Jr.",
+    "Team": "JAC",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Danny Gray",
+    "Team": "SF",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Kendrick Bourne",
+    "Team": "NE",
+    "Trade Value": 2,
+    "SF Value": "−2",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Deonte Harty",
+    "Team": "NO",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Ashton Dulin",
+    "Team": "IND",
+    "Trade Value": 2,
+    "SF Value": "New",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Dyami Brown",
+    "Team": "WAS",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Cedrick Wilson Jr.",
+    "Team": "MIA",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Braylon Sanders",
+    "Team": "FA",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Nelson Agholor",
+    "Team": "NE",
+    "Trade Value": 2,
+    "SF Value": "New",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Quez Watkins",
+    "Team": "PHI",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Tre'Quan Smith",
+    "Team": "NO",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Kevin Austin Jr.",
+    "Team": "FA",
+    "Trade Value": 2,
+    "SF Value": "New",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Denzel Mims",
+    "Team": "NYJ",
+    "Trade Value": 2,
+    "SF Value": "New",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Dee Eskridge",
+    "Team": "SEA",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Anthony Schwartz",
+    "Team": "CLE",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Braxton Berrios",
+    "Team": "NYJ",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Tylan Wallace",
+    "Team": "BAL",
+    "Trade Value": 2,
+    "SF Value": "New",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "Robbie Anderson",
+    "Team": "CAR",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "WR"
+  },
+  {
+    "name": "All Other WRs",
+    "Team": "",
+    "Trade Value": 1,
+    "SF Value": "-",
+    "value": 1,
+    "position": "WR"
+  },
+  {
+    "name": "Kyle Pitts",
+    "Team": "ATL",
+    "Trade Value": 65,
+    "SF Value": "-",
+    "value": 65,
+    "position": "TE"
+  },
+  {
+    "name": "Mark Andrews",
+    "Team": "BAL",
+    "Trade Value": 43,
+    "SF Value": "-",
+    "value": 43,
+    "position": "TE"
+  },
+  {
+    "name": "Travis Kelce",
+    "Team": "KC",
+    "Trade Value": 41,
+    "SF Value": "-",
+    "value": 41,
+    "position": "TE"
+  },
+  {
+    "name": "George Kittle",
+    "Team": "SF",
+    "Trade Value": 38,
+    "SF Value": "-",
+    "value": 38,
+    "position": "TE"
+  },
+  {
+    "name": "Darren Waller",
+    "Team": "LV",
+    "Trade Value": 36,
+    "SF Value": "-",
+    "value": 36,
+    "position": "TE"
+  },
+  {
+    "name": "Dallas Goedert",
+    "Team": "PHI",
+    "Trade Value": 34,
+    "SF Value": "-",
+    "value": 34,
+    "position": "TE"
+  },
+  {
+    "name": "Dalton Schultz",
+    "Team": "DAL",
+    "Trade Value": 32,
+    "SF Value": "2",
+    "value": 32,
+    "position": "TE"
+  },
+  {
+    "name": "T.J. Hockenson",
+    "Team": "DET",
+    "Trade Value": 30,
+    "SF Value": "−2",
+    "value": 30,
+    "position": "TE"
+  },
+  {
+    "name": "Cole Kmet",
+    "Team": "CHI",
+    "Trade Value": 28,
+    "SF Value": "-",
+    "value": 28,
+    "position": "TE"
+  },
+  {
+    "name": "Trey McBride",
+    "Team": "ARI",
+    "Trade Value": 27,
+    "SF Value": "4",
+    "value": 27,
+    "position": "TE"
+  },
+  {
+    "name": "Albert Okwuegbunam",
+    "Team": "DEN",
+    "Trade Value": 25,
+    "SF Value": "−2",
+    "value": 25,
+    "position": "TE"
+  },
+  {
+    "name": "Pat Freiermuth",
+    "Team": "PIT",
+    "Trade Value": 23,
+    "SF Value": "−2",
+    "value": 23,
+    "position": "TE"
+  },
+  {
+    "name": "David Njoku",
+    "Team": "CLE",
+    "Trade Value": 22,
+    "SF Value": "2",
+    "value": 22,
+    "position": "TE"
+  },
+  {
+    "name": "Noah Fant",
+    "Team": "SEA",
+    "Trade Value": 20,
+    "SF Value": "4",
+    "value": 20,
+    "position": "TE"
+  },
+  {
+    "name": "Irv Smith Jr.",
+    "Team": "MIN",
+    "Trade Value": 19,
+    "SF Value": "−3",
+    "value": 19,
+    "position": "TE"
+  },
+  {
+    "name": "Hunter Henry",
+    "Team": "NE",
+    "Trade Value": 17,
+    "SF Value": "2",
+    "value": 17,
+    "position": "TE"
+  },
+  {
+    "name": "Dawson Knox",
+    "Team": "BUF",
+    "Trade Value": 16,
+    "SF Value": "−1",
+    "value": 16,
+    "position": "TE"
+  },
+  {
+    "name": "Mike Gesicki",
+    "Team": "MIA",
+    "Trade Value": 15,
+    "SF Value": "−4",
+    "value": 15,
+    "position": "TE"
+  },
+  {
+    "name": "Zach Ertz",
+    "Team": "ARI",
+    "Trade Value": 13,
+    "SF Value": "-",
+    "value": 13,
+    "position": "TE"
+  },
+  {
+    "name": "Daniel Bellinger",
+    "Team": "NYG",
+    "Trade Value": 12,
+    "SF Value": "2",
+    "value": 12,
+    "position": "TE"
+  },
+  {
+    "name": "Robert Tonyan",
+    "Team": "GB",
+    "Trade Value": 11,
+    "SF Value": "2",
+    "value": 11,
+    "position": "TE"
+  },
+  {
+    "name": "Greg Dulcich",
+    "Team": "DEN",
+    "Trade Value": 10,
+    "SF Value": "−1",
+    "value": 10,
+    "position": "TE"
+  },
+  {
+    "name": "Jeremy Ruckert",
+    "Team": "NYJ",
+    "Trade Value": 9,
+    "SF Value": "−3",
+    "value": 9,
+    "position": "TE"
+  },
+  {
+    "name": "Brevin Jordan",
+    "Team": "HOU",
+    "Trade Value": 8,
+    "SF Value": "-",
+    "value": 8,
+    "position": "TE"
+  },
+  {
+    "name": "Gerald Everett",
+    "Team": "LAC",
+    "Trade Value": 7,
+    "SF Value": "-",
+    "value": 7,
+    "position": "TE"
+  },
+  {
+    "name": "Harrison Bryant",
+    "Team": "CLE",
+    "Trade Value": 7,
+    "SF Value": "2",
+    "value": 7,
+    "position": "TE"
+  },
+  {
+    "name": "Jonnu Smith",
+    "Team": "NE",
+    "Trade Value": 6,
+    "SF Value": "2",
+    "value": 6,
+    "position": "TE"
+  },
+  {
+    "name": "Isaiah Likely",
+    "Team": "BAL",
+    "Trade Value": 5,
+    "SF Value": "New",
+    "value": 5,
+    "position": "TE"
+  },
+  {
+    "name": "Tyler Higbee",
+    "Team": "LAR",
+    "Trade Value": 5,
+    "SF Value": "1",
+    "value": 5,
+    "position": "TE"
+  },
+  {
+    "name": "Hayden Hurst",
+    "Team": "CIN",
+    "Trade Value": 4,
+    "SF Value": "2",
+    "value": 4,
+    "position": "TE"
+  },
+  {
+    "name": "Jelani Woods",
+    "Team": "IND",
+    "Trade Value": 4,
+    "SF Value": "−1",
+    "value": 4,
+    "position": "TE"
+  },
+  {
+    "name": "Evan Engram",
+    "Team": "JAC",
+    "Trade Value": 3,
+    "SF Value": "−3",
+    "value": 3,
+    "position": "TE"
+  },
+  {
+    "name": "Austin Hooper",
+    "Team": "TEN",
+    "Trade Value": 3,
+    "SF Value": "-",
+    "value": 3,
+    "position": "TE"
+  },
+  {
+    "name": "Logan Thomas",
+    "Team": "WAS",
+    "Trade Value": 3,
+    "SF Value": "-",
+    "value": 3,
+    "position": "TE"
+  },
+  {
+    "name": "Mo Alie-Cox",
+    "Team": "IND",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "TE"
+  },
+  {
+    "name": "Hunter Long",
+    "Team": "MIA",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "TE"
+  },
+  {
+    "name": "Adam Trautman",
+    "Team": "NO",
+    "Trade Value": 2,
+    "SF Value": "−5",
+    "value": 2,
+    "position": "TE"
+  },
+  {
+    "name": "Cade Otton",
+    "Team": "TB",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "TE"
+  },
+  {
+    "name": "Tyler Conklin",
+    "Team": "NYJ",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "TE"
+  },
+  {
+    "name": "Cameron Brate",
+    "Team": "TB",
+    "Trade Value": 2,
+    "SF Value": "−1",
+    "value": 2,
+    "position": "TE"
+  },
+  {
+    "name": "Dan Arnold",
+    "Team": "JAC",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "TE"
+  },
+  {
+    "name": "Kylen Granson",
+    "Team": "IND",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "TE"
+  },
+  {
+    "name": "Charlie Kolar",
+    "Team": "BAL",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "TE"
+  },
+  {
+    "name": "Jake Ferguson",
+    "Team": "DAL",
+    "Trade Value": 2,
+    "SF Value": "New",
+    "value": 2,
+    "position": "TE"
+  },
+  {
+    "name": "Foster Moreau",
+    "Team": "LV",
+    "Trade Value": 2,
+    "SF Value": "New",
+    "value": 2,
+    "position": "TE"
+  },
+  {
+    "name": "Kyle Rudolph",
+    "Team": "TB",
+    "Trade Value": 2,
+    "SF Value": "-",
+    "value": 2,
+    "position": "TE"
+  },
+  {
+    "name": "All Other TEs",
+    "Team": "",
+    "Trade Value": 1,
+    "SF Value": "-",
+    "value": 1,
+    "position": "TE"
+  },
+  {
+    "name": "",
+    "Team": "",
+    "Trade Value": null,
+    "SF Value": "",
+    "value": null,
+    "position": "TE"
+  },
+  {
+    "name": "",
+    "Team": "",
+    "Trade Value": null,
+    "SF Value": "",
+    "value": null,
+    "position": "TE"
+  }
+ ]

@@ -69,11 +69,17 @@ class App extends Component {
         const playerList = [];
         const positionGroup = players
             .filter(player => player.position === position)
-            .sort((a,b) => {
-                const valueA = a.adp.overall ? parseInt(a.adp.overall) : 10000;
-                const valueB = b.adp.overall ? parseInt(b.adp.overall) : 10000;
+            // .sort((a,b) => {
+            //     const valueA = a.adp.overall ? parseInt(a.adp.overall) : 10000;
+            //     const valueB = b.adp.overall ? parseInt(b.adp.overall) : 10000;
 
-                return valueA - valueB;
+            //     return valueA - valueB;
+            // });
+            .sort((a,b) => {
+                const valueA = a.value ? parseInt(a.value) : 0;
+                const valueB = b.value ? parseInt(b.value) : 0;
+
+                return valueB - valueA;
             });
 
         const headerKey = 'position_group-' + position;

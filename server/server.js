@@ -20,6 +20,7 @@ app.get('/api/trade-values', (req, res) => {
     try {
         FP.getTradeValues()
             .then((data) => {
+                console.log(data)
                 res.send({
                     refType: 'trade-values',
                     data

@@ -1,0 +1,272 @@
+[
+    {
+      "Name": "",
+      "Team": "",
+      "Trade Value": null,
+      "SF Value": null
+    },
+    {
+      "Name": "Josh Allen",
+      "Team": "BUF",
+      "Trade Value": 38,
+      "SF Value": 83
+    },
+    {
+      "Name": "Patrick Mahomes II",
+      "Team": "KC",
+      "Trade Value": 36,
+      "SF Value": 82
+    },
+    {
+      "Name": "Justin Herbert",
+      "Team": "LAC",
+      "Trade Value": 34,
+      "SF Value": 79
+    },
+    {
+      "Name": "Joe Burrow",
+      "Team": "CIN",
+      "Trade Value": 33,
+      "SF Value": 78
+    },
+    {
+      "Name": "Kyler Murray",
+      "Team": "ARI",
+      "Trade Value": 31,
+      "SF Value": 75
+    },
+    {
+      "Name": "Lamar Jackson",
+      "Team": "BAL",
+      "Trade Value": 30,
+      "SF Value": 74
+    },
+    {
+      "Name": "Jalen Hurts",
+      "Team": "PHI",
+      "Trade Value": 27,
+      "SF Value": 69
+    },
+    {
+      "Name": "Trey Lance",
+      "Team": "SF",
+      "Trade Value": 25,
+      "SF Value": 66
+    },
+    {
+      "Name": "Dak Prescott",
+      "Team": "DAL",
+      "Trade Value": 24,
+      "SF Value": 65
+    },
+    {
+      "Name": "Deshaun Watson",
+      "Team": "CLE",
+      "Trade Value": 22,
+      "SF Value": 62
+    },
+    {
+      "Name": "Justin Fields",
+      "Team": "CHI",
+      "Trade Value": 21,
+      "SF Value": 60
+    },
+    {
+      "Name": "Russell Wilson",
+      "Team": "DEN",
+      "Trade Value": 20,
+      "SF Value": 58
+    },
+    {
+      "Name": "Aaron Rodgers",
+      "Team": "GB",
+      "Trade Value": 17,
+      "SF Value": 53
+    },
+    {
+      "Name": "Trevor Lawrence",
+      "Team": "JAC",
+      "Trade Value": 16,
+      "SF Value": 52
+    },
+    {
+      "Name": "Matthew Stafford",
+      "Team": "LAR",
+      "Trade Value": 16,
+      "SF Value": 52
+    },
+    {
+      "Name": "Derek Carr",
+      "Team": "LV",
+      "Trade Value": 15,
+      "SF Value": 50
+    },
+    {
+      "Name": "Mac Jones",
+      "Team": "NE",
+      "Trade Value": 14,
+      "SF Value": 47
+    },
+    {
+      "Name": "Kirk Cousins",
+      "Team": "MIN",
+      "Trade Value": 13,
+      "SF Value": 45
+    },
+    {
+      "Name": "Tua Tagovailoa",
+      "Team": "MIA",
+      "Trade Value": 12,
+      "SF Value": 43
+    },
+    {
+      "Name": "Zach Wilson",
+      "Team": "NYJ",
+      "Trade Value": 9,
+      "SF Value": 36
+    },
+    {
+      "Name": "Tom Brady",
+      "Team": "TB",
+      "Trade Value": 7,
+      "SF Value": 32
+    },
+    {
+      "Name": "Kenny Pickett",
+      "Team": "PIT",
+      "Trade Value": 7,
+      "SF Value": 31
+    },
+    {
+      "Name": "Jameis Winston",
+      "Team": "NO",
+      "Trade Value": 7,
+      "SF Value": 30
+    },
+    {
+      "Name": "Malik Willis",
+      "Team": "TEN",
+      "Trade Value": 6,
+      "SF Value": 30
+    },
+    {
+      "Name": "Baker Mayfield",
+      "Team": "CAR",
+      "Trade Value": 6,
+      "SF Value": 28
+    },
+    {
+      "Name": "Matt Ryan",
+      "Team": "IND",
+      "Trade Value": 6,
+      "SF Value": 28
+    },
+    {
+      "Name": "Ryan Tannehill",
+      "Team": "TEN",
+      "Trade Value": 6,
+      "SF Value": 28
+    },
+    {
+      "Name": "Daniel Jones",
+      "Team": "NYG",
+      "Trade Value": 5,
+      "SF Value": 27
+    },
+    {
+      "Name": "Davis Mills",
+      "Team": "HOU",
+      "Trade Value": 5,
+      "SF Value": 26
+    },
+    {
+      "Name": "Desmond Ridder",
+      "Team": "ATL",
+      "Trade Value": 5,
+      "SF Value": 24
+    },
+    {
+      "Name": "Jared Goff",
+      "Team": "DET",
+      "Trade Value": 4,
+      "SF Value": 23
+    },
+    {
+      "Name": "Carson Wentz",
+      "Team": "WAS",
+      "Trade Value": 4,
+      "SF Value": 21
+    },
+    {
+      "Name": "Marcus Mariota",
+      "Team": "ATL",
+      "Trade Value": 2,
+      "SF Value": 13
+    },
+    {
+      "Name": "Mitch Trubisky",
+      "Team": "PIT",
+      "Trade Value": 2,
+      "SF Value": 11
+    },
+    {
+      "Name": "Jimmy Garoppolo",
+      "Team": "SF",
+      "Trade Value": 2,
+      "SF Value": 9
+    },
+    {
+      "Name": "Geno Smith",
+      "Team": "SEA",
+      "Trade Value": 1,
+      "SF Value": 7
+    },
+    {
+      "Name": "Matt Corral",
+      "Team": "CAR",
+      "Trade Value": 1,
+      "SF Value": 6
+    },
+    {
+      "Name": "Sam Howell",
+      "Team": "WAS",
+      "Trade Value": 1,
+      "SF Value": 5
+    },
+    {
+      "Name": "Jacoby Brissett",
+      "Team": "CLE",
+      "Trade Value": 1,
+      "SF Value": 5
+    },
+    {
+      "Name": "Gardner Minshew II",
+      "Team": "PHI",
+      "Trade Value": 1,
+      "SF Value": 4
+    },
+    {
+      "Name": "Sam Darnold",
+      "Team": "CAR",
+      "Trade Value": 1,
+      "SF Value": 4
+    },
+    {
+      "Name": "Teddy Bridgewater",
+      "Team": "MIA",
+      "Trade Value": 1,
+      "SF Value": 4
+    },
+    {
+      "Name": "Jordan Love",
+      "Team": "GB",
+      "Trade Value": 1,
+      "SF Value": 4
+    },
+    {
+      "Name": "All Other QBs",
+      "Team": "",
+      "Trade Value": 1,
+      "SF Value": 2
+    }
+   ]
